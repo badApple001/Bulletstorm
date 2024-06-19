@@ -1,0 +1,7 @@
+Temp
+.vs
+Library
+*.csproj
+obj
+Logs
+Publish

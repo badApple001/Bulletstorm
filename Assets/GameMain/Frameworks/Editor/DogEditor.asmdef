@@ -1,0 +1,19 @@
+{
+    "name": "DogEditor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2e166ae05a6c4c542ae3e5aedbba7c5d",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

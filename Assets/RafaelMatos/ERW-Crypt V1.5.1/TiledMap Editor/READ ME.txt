@@ -1,0 +1,19 @@
+The balluster(1 and 2) rules use the tiles from wall 2 and 3 as input.
+
+The balluster(1 and 2) auto tile works similar to the Prison Cells from the Asset Old Prison. 
+-Tiles B.1 and B.2 works as a pencil. Use it to draw around the edges of the wall(2 and 3)
+-Use tile B.1 for the wall-2 and B.2 for the wall-3.
+-The autotile for the walls accept unwalkable areas otherwhise you would get messed up results while drawing. However, balluster 1 and 2 autotile does not (except vertical tiles)
+
+
+*If you want to disable all tiles variations or just some of them, you can select the rectangle in the rule_options layer and disable all the rules in the area
+by selecting Disabled in the custom properties painel. See the image "how to disable tile variations".
+
+*The balluster 3 and 4 use the striped tile while drawing. Once the auto tile is applied, this tile is replaced by the transparent tile above it in the tileset
+
+
+**The balluster 3 and 4 use the striped tile while you're drawing. Once the auto tile is applied, this tile is replaced by the transparent tile above it in the tileset.
+The reason behind this is due to the fact that the tile is mostly transparent and we only care about the edges so I'm using the striped tile to make it easier to orient yourself while drawing.
+
+Also, for curiosity, this transparent tile is also a full tile in the terrain brush setting but its probability to be drawn is set to 0 so we can only draw the striped full tile. I'm doing
+this because this tile have to be part of the terrain brush, otherwise it won't be recognized therefore the terrain brush(built in autotile) will be all messed up.

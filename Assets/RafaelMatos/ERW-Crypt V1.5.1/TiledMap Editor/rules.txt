@@ -1,0 +1,38 @@
+#wall 1
+
+Rules\wall-1-rule0-reset.tmx
+Rules\wall-1-rule1-places all tiles.tmx
+Rules\wall-1-rule2-applies variations.tmx
+
+#wall 2 and balluster
+
+Rules\wall-2-rule0-reset.tmx
+
+#the rules below have to be called between wall-2-rule0 and 1 because its inputs use the wall's basic tiles (top section of the wall)
+Rules\balluster1-wall2-rule0-resets all tiles to initial state.tmx
+Rules\balluster1-wall2-rule1-places all tiles.tmx
+Rules\balluster1-wall2-rule2-dead ends and variations.tmx
+#----------------------
+
+Rules\wall-2-rule1-places all tiles.tmx
+Rules\wall-2-rule2-applies variations.tmx
+
+#wall 3 and balluster
+
+Rules\wall-3-rule0-reset.tmx
+
+#the rules below have to be called between wall-3-rule0 and 1 because its inputs use the wall's basic tiles (top section of the wall)
+Rules\balluster2-wall3-rule0-resets all tiles to initial state.tmx
+Rules\balluster2-wall3-rule1-places all tiles.tmx
+Rules\balluster2-wall3-rule2-dead ends and variations.tmx
+#----------------------
+
+Rules\wall-3-rule1-places all tiles.tmx
+Rules\wall-3-rule2-applies variations.tmx
+
+
+Rules\balluster3-rule0-resets all tiles to initial state.tmx
+Rules\balluster3-rule1-places all tiles.tmx
+Rules\balluster3-rule2-dead ends and variations.tmx
+
+Rules\balluster4-rule0-removes striped tiles.tmx

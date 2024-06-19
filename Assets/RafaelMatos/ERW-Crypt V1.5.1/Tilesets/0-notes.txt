@@ -1,0 +1,15 @@
+*Notes
+-Unity's Rule tile system alternative
+Since Unity's default rule tile system is somehow limited and does not cover some aspects of autotiling out of the box, tilesets with multiple heights(e.g walls
+with 2 or more tiles of height) have no rule tile setup. Premade corners are provided for these tilesets to make it easier to draw.
+
+-TiledMap Editor alternative
+All tilesets have full autotile support and this is as easy as selecting a brush for a specific tileset and start drawing.
+2D Map Editor: Tiled Map Editor
+Tiled Map Editor maps to Unity: Super Tiled2Unity (This should be imported to Unity as a package)
+
+
+-----------
+
+For the balluster 4 auto tile, I'd recommend using the rectangular brush(U) because the inner tile(full tile) is transparent so
+It's easier to draw/remove using the rectangular brush

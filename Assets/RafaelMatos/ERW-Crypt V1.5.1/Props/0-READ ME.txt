@@ -1,0 +1,14 @@
+-The atlas of props must be used as a sprite group, so you can have access 
+to all available sprites in one file. However, normally most of them are 
+aligned and ready to be used as a tileset.
+
+-Pit trap2:
+Provided as 1x1 and 2x2 premade quick to use trap,
+but the falling stones and the pit are also provided individually in order
+to stack them as you like and make use of Z-ordering.
+
+-Face statue animation cycle: 
+Activating firing instance -> firing instance or firing -> deactivating firing instance
+
+-The animated saw is meant to be used with 70 ms per frame but a 3 frames animation 
+is also provided if you want to keep the standard 100 ms per frame

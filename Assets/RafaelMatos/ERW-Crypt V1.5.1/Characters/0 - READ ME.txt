@@ -1,0 +1,14 @@
+-Big worm
+Big worm 1 and 2 are color schemes variations. They have 3 diferent designs variations (the simplest with a 5th eye, 
+with horns and with horns and claws/legs). A total of 6 variations. 
+
+Sritesheets with all animations follows the sequence:
+Idle, Attack, Retreat, Hurt, Death
+
+-Skeleton
+Sritesheets with all animations follows the sequence:
+Idle, Walk, Attack, Hurt, Death
+
+-Spider
+Sritesheets with all animations follows the sequence:
+Idle, Walk, Attack, Hurt, Death

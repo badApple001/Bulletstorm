@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PoolCore</name>
+    </assembly>
+    <members>
+        <member name="T:PoolCore.TransformPool">
+            <summary>
+            TransformPool
+            </summary>
+        </member>
+        <member name="M:PoolCore.TransformPool.#ctor(UnityEngine.GameObject,UnityEngine.Transform,System.Collections.Generic.Dictionary{UnityEngine.Transform,System.String})">
+            <summary>
+            模板预设
+            </summary>
+            <param name="prefab"> 预设 </param>
+            <param name="parent"> 指定一个父类 </param>
+        </member>
+        <member name="F:PoolCore.TransformPool.nameofDict">
+            <summary>
+            Transform 和 poolKey 映射字典
+            </summary>
+        </member>
+        <member name="F:PoolCore.TransformPool.free">
+            <summary>
+            闲置链表
+            </summary>
+        </member>
+        <member name="F:PoolCore.TransformPool.active">
+            <summary>
+            激活链表
+            </summary>
+        </member>
+        <member name="F:PoolCore.TransformPool.prefab">
+            <summary>
+            预设模板
+            </summary>
+        </member>
+        <member name="F:PoolCore.TransformPool.parent">
+            <summary>
+            父节点
+            </summary>
+        </member>
+        <member name="F:PoolCore.TransformPool.expandTimeSinceStartup">
+            <summary>
+            扩充时间
+            </summary>
+        </member>
+        <member name="F:PoolCore.TransformPool.tryExpandCount">
+            <summary>
+            尝试扩容的次数
+            </summary>
+        </member>
+        <member name="M:PoolCore.TransformPool.Pop">
+            <summary>
+            激活对象
+            
+            从闲置链表中推出一个闲置对象 并将其加入激活列表的中
+            通常情况下 你只需要处理激活列表中的对象即可
+            
+            </summary>
+            <returns> 你需要为他设置父类 并为它设置 Active为true </returns>
+        </member>
+        <member name="M:PoolCore.TransformPool.Push_Back(UnityEngine.Transform)">
+            <summary>
+            回收闲置对象
+            </summary>
+            <param name="obj"></param>
+        </member>
+        <member name="T:PoolCore.TransformPool.PoolElementState">
+            <summary>
+            元素在池子中的状态
+            </summary>
+        </member>
+        <member name="F:PoolCore.TransformPool.PoolElementState.Unknown">
+            <summary>
+            未知 不存在当前对象池中
+            </summary>
+        </member>
+        <member name="F:PoolCore.TransformPool.PoolElementState.Active">
+            <summary>
+            激活状态
+            </summary>
+        </member>
+        <member name="F:PoolCore.TransformPool.PoolElementState.Free">
+            <summary>
+            闲置状态
+            </summary>
+        </member>
+        <member name="M:PoolCore.TransformPool.GetElementState(UnityEngine.Transform)">
+            <summary>
+            获取对象在池中的状态
+            </summary>
+            <param name="dest"> enum: PoolElementState </param>
+            <returns></returns>
+        </member>
+        <member name="M:PoolCore.TransformPool.InSidePool(UnityEngine.Transform)">
+            <summary>
+            是否在对象池
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PoolCore.TransformPool.Recycle">
+            <summary>
+            回收所有激活的对象
+            </summary>
+        </member>
+        <member name="M:PoolCore.TransformPool.Reserve(System.Int32)">
+            <summary>
+            预定一定数量的预设
+            </summary>
+            <param name="count"></param>
+        </member>
+        <member name="M:PoolCore.TransformPool.Release">
+            <summary>
+            此操作会完全释放对象的内存占用 是delete哦~
+            </summary>
+        </member>
+        <member name="P:PoolCore.TransformPool.FreeCount">
+            <summary>
+            获取当前闲置数量
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:PoolCore.TransformPool.Capacity">
+            <summary>
+            获取当前池子容量
+            </summary>
+        </member>
+    </members>
+</doc>
