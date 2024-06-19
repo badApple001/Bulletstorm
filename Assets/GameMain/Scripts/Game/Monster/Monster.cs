@@ -37,6 +37,7 @@ public class Monster : MonoBehaviour, IPlayerPositionChangeEvent
     public float m_filedOfView = 3.93f;
     /*[Header( "攻击伤害" )] */
     public float m_attackHarm = 2f;
+    public float m_attackAnimationTime = 0.6f;
     /*[Header( "移动速度" )] */
     public float m_moveSpeed = 2f;
     /*[Header( "攻击距离" )] */
@@ -141,7 +142,7 @@ public class Monster : MonoBehaviour, IPlayerPositionChangeEvent
     //动画实在太多了,所以在下就决定用代码来绑定好了, 这样一劳永逸
     private void ReigisteAnimationEvent( )
     {
-        AnimatorUtils.AddAnimationEvent( animator, "Attack", "Fire", 0.6f, "OnAttack" );
+        AnimatorUtils.AddAnimationEvent( animator, "Attack", "Fire", m_attackAnimationTime, "OnAttack" );
         transform.GetChild( 0 ).GetComponent<AnimateEventHandler>( ).Listen( "OnAttack", OnAttack );
     }
 
@@ -159,6 +160,7 @@ public class Monster : MonoBehaviour, IPlayerPositionChangeEvent
         }
         else
         {
+
             animator.CrossFade( "Hit", 0.2f );
             SetState( MonsterState.Hit );
         }
@@ -185,7 +187,7 @@ public class Monster : MonoBehaviour, IPlayerPositionChangeEvent
                 //如果敌人是从左边走过来,那它的位置就是 x:-0.4,y:0.4
                 //反之 x:0.4,y:0.4
                 //y也减0.4是啥意思呢? 因为玩家的脚底是需要减少0.4, 其它怪物一样保持以脚底为原点算坐标,保持在统一水平线上
-                ai.destination = playerTrans.position + dir.normalized * -0.4f;
+                ai.destination = playerTrans.position + dir.normalized * -m_atkDistance;
                 if ( ai.reachedDestination || dir.magnitude <= m_atkDistance )
                 {
                     SetState( MonsterState.Attack );
@@ -243,7 +245,14 @@ public class Monster : MonoBehaviour, IPlayerPositionChangeEvent
 
     protected virtual void OnEnterHitState( MonsterState oldState )
     {
-        SetState( MonsterState.FollowTarget );
+        Timer.SetTimeout( 0.2f, LateCallFindTarget );
+    }
+    private void LateCallFindTarget( )
+    {
+        if ( m_currentState != MonsterState.Death )
+        {
+            SetState( MonsterState.FollowTarget );
+        }
     }
 
     protected virtual void OnEnterFollowTargetState( MonsterState oldState )

@@ -18,6 +18,7 @@ public class MonsterEditor : Editor
         _target.m_filedOfView = EditorGUILayout.FloatField( "视野范围", _target.m_filedOfView );
         _target.m_moveSpeed = EditorGUILayout.FloatField( "移动速度", _target.m_moveSpeed );
         _target.m_atkDistance = EditorGUILayout.FloatField( "攻击距离", _target.m_atkDistance );
+        _target.m_attackAnimationTime = EditorGUILayout.FloatField( "攻击时机", _target.m_attackAnimationTime );
         _target.m_monsterType = ( MonsterType ) EditorGUILayout.EnumPopup( "怪物类型", _target.m_monsterType );
         if ( _target.m_monsterType == MonsterType.Shooter )
         {

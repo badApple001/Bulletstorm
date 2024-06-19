@@ -7,6 +7,10 @@ public class Gun : MonoBehaviour
     public float interval;
     public GameObject bulletPrefab;
     public GameObject shellPrefab;
+    public float harm = 105;
+    public LayerMask checkLayer;
+    public float critRate = 0.333f;  //暴击概率
+    public float repelDistance = 0.2f;//击退距离
     protected Transform muzzlePos;
     protected Transform shellPos;
     protected Vector2 mousePos;
