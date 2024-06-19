@@ -15,11 +15,11 @@ public class GameOverWindow : MonoBehaviour
     {
         int index = 0;
         int count = frames.Length;
-        Timer.SetInterval( 1f / 12, ( ) =>
-        {
-            index = ( index + 1 ) % count;
-            player.sprite = frames[index];
-        } );
+        //Timer.SetInterval( 1f / 12, ( ) =>
+        //{
+        //    index = ( index + 1 ) % count;
+        //    player.sprite = frames[index];
+        //} );
     }
 
     public void OnClickReplay( )

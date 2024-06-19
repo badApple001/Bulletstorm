@@ -1,7 +1,6 @@
 using Pathfinding;
 using System;
 using System.Collections.Generic;
-using Unity.Burst.Intrinsics;
 using UnityEngine;
 
 
@@ -316,7 +315,7 @@ public class Monster : MonoBehaviour, IPlayerPositionChangeEvent
             {
                 //测试demo临时加, 后续再加到表里
                 int critRate = UnityEngine.Random.value < 0.1f ? 2 : 1;
-                float realHarm = m_atkDistance * critRate * g_playerControl.creature.defense;
+                float realHarm = m_attackHarm * critRate * g_playerControl.creature.defense;
                 g_playerControl.creature.Hp -= realHarm;
                 //飘字
                 MsgFire.Event(

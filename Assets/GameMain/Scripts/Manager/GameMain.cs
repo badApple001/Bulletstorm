@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[DefaultExecutionOrder(-2000)]
+[DefaultExecutionOrder( -2000 )]
 public class GameMain : MonoBehaviour
 {
 
@@ -8,7 +8,8 @@ public class GameMain : MonoBehaviour
     /// ”Œœ∑¥Êµµ
     /// </summary>
     [SerializeField]
-    public class GameData {
+    public class GameData
+    {
 
         public bool firstInGame = false;
     }
@@ -16,9 +17,22 @@ public class GameMain : MonoBehaviour
     private void Awake( )
     {
         UIManager.Init( GameObject.Find( "HUD/CanvasBase" ).transform );
-        if ( !DiskAgent.Load<GameData>().firstInGame )
+        Quark.QuarkLauncher.Ins.OnLaunchCallback += AssetBundleInitializetion;
+    }
+
+    private void AssetBundleInitializetion( bool suc )
+    {
+        if ( suc )
         {
             UIManager.Create<LoginWindow>( );
+            if ( !DiskAgent.Load<GameData>( ).firstInGame )
+            {
+                UIManager.Create<GuideWindow>( );
+            }
+        }
+        else
+        {
+            Debug.LogError( "AssetBundle≥ı ºªØ ß∞‹" );
         }
     }
 

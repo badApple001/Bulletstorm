@@ -33,7 +33,7 @@ MonoBehaviour:
   - bundleName: assets_assetbundleresources_game_bullet
     bundlePath: Assets/AssetBundleResources/Game/Bullet
     bundleKey: assets_assetbundleresources_game_bullet
-    bundleSize: 23371
+    bundleSize: 23382
     bundleFormatBytes: 22.8 KB
     objectInfoList:
     - objectName: Bullet
@@ -65,7 +65,7 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Bullet/MonsterBullet.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_bullet
-      objectSize: 4773
+      objectSize: 4784
       objectFormatBytes: 4.7 KB
       objectValid: 1
     - objectName: Rocket
@@ -140,12 +140,12 @@ MonoBehaviour:
   - bundleName: assets_assetbundleresources_game_monsters
     bundlePath: Assets/AssetBundleResources/Game/Monsters
     bundleKey: assets_assetbundleresources_game_monsters
-    bundleSize: 5010731
+    bundleSize: 5032074
     bundleFormatBytes: 4.8 MB
     objectInfoList:
     - objectName: m11Projectile
       objectExtension: .prefab
-      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/m11Projectile.prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Models/m11Projectile.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
       objectSize: 2938
@@ -153,7 +153,7 @@ MonoBehaviour:
       objectValid: 1
     - objectName: m14Spike
       objectExtension: .prefab
-      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/m14Spike.prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Models/m14Spike.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
       objectSize: 2287
@@ -161,7 +161,7 @@ MonoBehaviour:
       objectValid: 1
     - objectName: m16AttackFX
       objectExtension: .prefab
-      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/m16AttackFX.prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Models/m16AttackFX.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
       objectSize: 2935
@@ -169,7 +169,7 @@ MonoBehaviour:
       objectValid: 1
     - objectName: m17AttackFX
       objectExtension: .prefab
-      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/m17AttackFX.prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Models/m17AttackFX.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
       objectSize: 2926
@@ -177,7 +177,7 @@ MonoBehaviour:
       objectValid: 1
     - objectName: m17Bullet
       objectExtension: .prefab
-      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/m17Bullet.prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Models/m17Bullet.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
       objectSize: 2287
@@ -185,7 +185,7 @@ MonoBehaviour:
       objectValid: 1
     - objectName: m20Projectile
       objectExtension: .prefab
-      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/m20Projectile.prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Models/m20Projectile.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
       objectSize: 2294
@@ -193,7 +193,7 @@ MonoBehaviour:
       objectValid: 1
     - objectName: m2Projectile
       objectExtension: .prefab
-      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/m2Projectile.prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Models/m2Projectile.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
       objectSize: 2935
@@ -201,7 +201,7 @@ MonoBehaviour:
       objectValid: 1
     - objectName: m3Projectile
       objectExtension: .prefab
-      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/m3Projectile.prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Models/m3Projectile.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
       objectSize: 2936
@@ -209,7 +209,7 @@ MonoBehaviour:
       objectValid: 1
     - objectName: m5Projectile
       objectExtension: .prefab
-      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/m5Projectile.prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Models/m5Projectile.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
       objectSize: 2293
@@ -217,7 +217,7 @@ MonoBehaviour:
       objectValid: 1
     - objectName: m6Projectile
       objectExtension: .prefab
-      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/m6Projectile.prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Models/m6Projectile.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
       objectSize: 2293
@@ -225,7 +225,7 @@ MonoBehaviour:
       objectValid: 1
     - objectName: m6Tentacle
       objectExtension: .prefab
-      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/m6Tentacle.prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Models/m6Tentacle.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
       objectSize: 2935
@@ -233,7 +233,7 @@ MonoBehaviour:
       objectValid: 1
     - objectName: m7DustFX
       objectExtension: .prefab
-      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/m7DustFX.prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Models/m7DustFX.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
       objectSize: 2934
@@ -241,7 +241,7 @@ MonoBehaviour:
       objectValid: 1
     - objectName: m7Spike
       objectExtension: .prefab
-      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/m7Spike.prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Models/m7Spike.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
       objectSize: 2288
@@ -249,7 +249,7 @@ MonoBehaviour:
       objectValid: 1
     - objectName: m8FirebreathFX
       objectExtension: .prefab
-      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/m8FirebreathFX.prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Models/m8FirebreathFX.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
       objectSize: 2934
@@ -257,7 +257,7 @@ MonoBehaviour:
       objectValid: 1
     - objectName: monster1
       objectExtension: .prefab
-      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/monster1.prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster1.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
       objectSize: 2928
@@ -265,7 +265,7 @@ MonoBehaviour:
       objectValid: 1
     - objectName: monster10
       objectExtension: .prefab
-      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/monster10.prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster10.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
       objectSize: 2932
@@ -273,7 +273,7 @@ MonoBehaviour:
       objectValid: 1
     - objectName: monster11
       objectExtension: .prefab
-      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/monster11.prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster11.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
       objectSize: 2934
@@ -281,7 +281,7 @@ MonoBehaviour:
       objectValid: 1
     - objectName: monster12
       objectExtension: .prefab
-      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/monster12.prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster12.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
       objectSize: 2933
@@ -289,7 +289,7 @@ MonoBehaviour:
       objectValid: 1
     - objectName: monster13
       objectExtension: .prefab
-      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/monster13.prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster13.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
       objectSize: 2935
@@ -297,7 +297,7 @@ MonoBehaviour:
       objectValid: 1
     - objectName: monster14
       objectExtension: .prefab
-      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/monster14.prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster14.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
       objectSize: 2929
@@ -305,7 +305,7 @@ MonoBehaviour:
       objectValid: 1
     - objectName: monster15
       objectExtension: .prefab
-      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/monster15.prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster15.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
       objectSize: 2931
@@ -313,7 +313,7 @@ MonoBehaviour:
       objectValid: 1
     - objectName: monster16
       objectExtension: .prefab
-      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/monster16.prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster16.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
       objectSize: 2933
@@ -321,7 +321,7 @@ MonoBehaviour:
       objectValid: 1
     - objectName: monster17
       objectExtension: .prefab
-      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/monster17.prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster17.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
       objectSize: 2931
@@ -329,7 +329,7 @@ MonoBehaviour:
       objectValid: 1
     - objectName: monster18
       objectExtension: .prefab
-      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/monster18.prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster18.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
       objectSize: 2932
@@ -337,7 +337,7 @@ MonoBehaviour:
       objectValid: 1
     - objectName: monster19
       objectExtension: .prefab
-      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/monster19.prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster19.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
       objectSize: 2935
@@ -345,7 +345,7 @@ MonoBehaviour:
       objectValid: 1
     - objectName: monster2
       objectExtension: .prefab
-      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/monster2.prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster2.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
       objectSize: 2928
@@ -353,7 +353,7 @@ MonoBehaviour:
       objectValid: 1
     - objectName: monster20
       objectExtension: .prefab
-      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/monster20.prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster20.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
       objectSize: 2934
@@ -361,7 +361,7 @@ MonoBehaviour:
       objectValid: 1
     - objectName: monster3
       objectExtension: .prefab
-      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/monster3.prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster3.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
       objectSize: 2929
@@ -369,7 +369,7 @@ MonoBehaviour:
       objectValid: 1
     - objectName: monster4
       objectExtension: .prefab
-      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/monster4.prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster4.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
       objectSize: 2934
@@ -377,7 +377,7 @@ MonoBehaviour:
       objectValid: 1
     - objectName: monster5
       objectExtension: .prefab
-      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/monster5.prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster5.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
       objectSize: 2928
@@ -385,7 +385,7 @@ MonoBehaviour:
       objectValid: 1
     - objectName: monster6
       objectExtension: .prefab
-      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/monster6.prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster6.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
       objectSize: 2920
@@ -393,7 +393,7 @@ MonoBehaviour:
       objectValid: 1
     - objectName: monster7
       objectExtension: .prefab
-      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/monster7.prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster7.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
       objectSize: 2912
@@ -401,7 +401,7 @@ MonoBehaviour:
       objectValid: 1
     - objectName: monster8
       objectExtension: .prefab
-      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/monster8.prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster8.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
       objectSize: 2929
@@ -409,11 +409,27 @@ MonoBehaviour:
       objectValid: 1
     - objectName: monster9
       objectExtension: .prefab
-      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/monster9.prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster9.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
       objectSize: 2933
       objectFormatBytes: 2.9 KB
+      objectValid: 1
+    - objectName: Moth
+      objectExtension: .prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/Moth.prefab
+      objectType: UnityEngine.GameObject
+      bundleName: assets_assetbundleresources_game_monsters
+      objectSize: 10454
+      objectFormatBytes: 10.2 KB
+      objectValid: 1
+    - objectName: Slime
+      objectExtension: .prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/Slime.prefab
+      objectType: UnityEngine.GameObject
+      bundleName: assets_assetbundleresources_game_monsters
+      objectSize: 9562
+      objectFormatBytes: 9.3 KB
       objectValid: 1
     - objectName: Dead
       objectExtension: .anim
@@ -708,8 +724,8 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 13/monster13.controller
       objectType: UnityEditor.Animations.AnimatorController
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 5191
-      objectFormatBytes: 5.1 KB
+      objectSize: 6518
+      objectFormatBytes: 6.4 KB
       objectValid: 1
     - objectName: Walk
       objectExtension: .anim
@@ -3993,16 +4009,24 @@ MonoBehaviour:
   - bundleName: assets_assetbundleresources_ui
     bundlePath: Assets/AssetBundleResources/UI
     bundleKey: assets_assetbundleresources_ui
-    bundleSize: 44301
-    bundleFormatBytes: 43.3 KB
+    bundleSize: 81927
+    bundleFormatBytes: 80.0 KB
     objectInfoList:
     - objectName: GameOverWindow
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/UI/GameOverWindow.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_ui
-      objectSize: 17636
-      objectFormatBytes: 17.2 KB
+      objectSize: 22105
+      objectFormatBytes: 21.6 KB
+      objectValid: 1
+    - objectName: GuideWindow
+      objectExtension: .prefab
+      objectPath: Assets/AssetBundleResources/UI/GuideWindow.prefab
+      objectType: UnityEngine.GameObject
+      bundleName: assets_assetbundleresources_ui
+      objectSize: 33157
+      objectFormatBytes: 32.4 KB
       objectValid: 1
     - objectName: LoginWindow
       objectExtension: .prefab
@@ -4015,6 +4039,8 @@ MonoBehaviour:
     dependentBundleKeyList:
     - bundleKey: assets_assetbundleresources_fonts
       bundleName: assets_assetbundleresources_fonts
+    - bundleKey: assets_assetbundleresources_game_monsters
+      bundleName: assets_assetbundleresources_game_monsters
     splittable: 0
     subBundleInfoList: []
   - bundleName: assets_assetbundleresources_sprite

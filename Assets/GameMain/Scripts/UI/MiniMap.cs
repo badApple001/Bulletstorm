@@ -8,7 +8,7 @@ public class MiniMap : MonoBehaviour
     public Transform monsterRoot;
     public GameObject pointPref;
     List<Transform> monsters = new List<Transform>( );
-    Dictionary<Transform, Transform> monsterToPoint = new Dictionary<Transform, Transform>( );
+    List<Transform> redpoint = new List<Transform>( );
 
 
     void Start( )
@@ -20,7 +20,7 @@ public class MiniMap : MonoBehaviour
 
             var pointObj = GameObject.Instantiate( pointPref, transform );
             pointObj.GetComponent<Image>( ).color = Color.red;
-            monsterToPoint.Add( child, pointObj.transform );
+            redpoint.Add(pointObj.transform );
         }
 
         Timer.SetInterval( 0.1f, UpdateMonsterPos );
@@ -39,12 +39,14 @@ public class MiniMap : MonoBehaviour
             monster = monsters[ i ];
             if ( monster == null )
             {
-                monsters.RemoveAt( i-- );
+                monsters.RemoveAt( i );
+                GameObject.Destroy( redpoint[ i ].gameObject );
+                redpoint.RemoveAt( i-- );
                 continue;
             }
             var dir = monster.position - playerPos;
             var scale = Mathf.Clamp01( dir.magnitude / 9.6f );
-            monsterToPoint[ monster ].localPosition = dir.normalized * scale * 115;
+            redpoint[i].localPosition = dir.normalized * scale * 115;
         }
     }
 

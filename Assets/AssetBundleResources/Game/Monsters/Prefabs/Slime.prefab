@@ -30,7 +30,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7692477254573462339}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.827, y: -6.749, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
@@ -78,9 +78,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_territorialCenter: {x: 0, y: 0, z: 0}
-  m_territorialRange: 4
-  m_filedOfView: 5.8
+  m_territorialRange: 6.52
+  m_filedOfView: 4.35
   m_attackHarm: 1000
+  m_attackAnimationTime: 0.3
   m_moveSpeed: 4
   m_atkDistance: 0.5
   m_deathColor: {r: 1, g: 1, b: 1, a: 1}
