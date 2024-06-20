@@ -56,6 +56,7 @@ public class Monster : MonoBehaviour, IPlayerPositionChangeEvent
 
 
     private static PlayerControl g_playerControl;
+    private Creature creature;
     private Transform playerTrans;
     private Dictionary<MonsterState, Action<MonsterState>> stateCallback = new Dictionary<MonsterState, Action<MonsterState>>( );
     private Animator animator;
@@ -116,7 +117,7 @@ public class Monster : MonoBehaviour, IPlayerPositionChangeEvent
     {
         animator = transform.GetChild( 0 ).GetComponent<Animator>( );
         ai = GetComponent<IAstarAI>( );
-        var creature = GetComponent<Creature>( );
+        creature = GetComponent<Creature>( );
         m_territorialCenter = transform.position;
 
         ai.maxSpeed = m_moveSpeed;
@@ -291,6 +292,10 @@ public class Monster : MonoBehaviour, IPlayerPositionChangeEvent
         {
             sr.color = m_deathColor;
         }
+
+        //这里是从字典里取哈, 不用担心性能
+        DiskAgent.Load<GameMain.GameData>( ).exp += creature.GetExp( );
+        MsgFire.Event( GameEventName.ON_FLY_EXP, transform.position, DiskAgent.Load<GameMain.GameData>( ).exp );
     }
 
     protected virtual void OnEnterGoHomeState( MonsterState oldState )

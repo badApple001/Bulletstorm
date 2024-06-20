@@ -26,8 +26,11 @@ public class GameOverWindow : MonoBehaviour
     {
         Debug.Log( "Replay" );
         UIManager.Close<GameOverWindow>( );
+
+
         ObjectPool.Instance.Clear();
         Timer.ClearTimers( );
+        UIManager.CleanCache( );
         SceneManager.LoadScene( 0 );
     }
 

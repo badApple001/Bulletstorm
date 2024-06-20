@@ -327,4 +327,10 @@ public class UIManager
         }
     }
 
+
+
+    public static void CleanCache( )
+    {
+        cacheForms.Clear();
+    }
 }
