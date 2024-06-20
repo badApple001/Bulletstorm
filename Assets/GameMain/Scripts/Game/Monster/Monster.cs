@@ -87,7 +87,7 @@ public class Monster : MonoBehaviour, IPlayerPositionChangeEvent
         //绘制领地范围
         if ( !Application.isPlaying )
         {
-            GizmosUtil.DrawCircle( transform.localToWorldMatrix, m_territorialRange / scale, Vector2.zero, Color.yellow );
+            GizmosUtil.DrawCircle( transform.localToWorldMatrix, m_territorialRange / scale, Vector2.zero, Color.blue );
         }
     }
 
@@ -173,7 +173,7 @@ public class Monster : MonoBehaviour, IPlayerPositionChangeEvent
         {
             case MonsterState.Idle:
                 {
-                    if ( dir.magnitude <= m_filedOfView )
+                    if ( dir.magnitude < m_filedOfView )
                     {
                         SetState( MonsterState.FollowTarget );
                     }
@@ -186,7 +186,7 @@ public class Monster : MonoBehaviour, IPlayerPositionChangeEvent
                 //如果敌人是从左边走过来,那它的位置就是 x:-0.4,y:0.4
                 //反之 x:0.4,y:0.4
                 //y也减0.4是啥意思呢? 因为玩家的脚底是需要减少0.4, 其它怪物一样保持以脚底为原点算坐标,保持在统一水平线上
-                ai.destination = playerTrans.position + dir.normalized * -m_atkDistance;
+                ai.destination = playerTrans.position;
                 if ( ai.reachedDestination || dir.magnitude <= m_atkDistance )
                 {
                     SetState( MonsterState.Attack );
@@ -194,7 +194,6 @@ public class Monster : MonoBehaviour, IPlayerPositionChangeEvent
                 else
                 {
                     transform.localScale = new Vector3( ai.velocity.x > 0 ? -flipX : flipX, flipY, 1 );
-
                     if ( dir.magnitude > m_filedOfView )
                     {
                         SetState( MonsterState.GoHome );
@@ -209,21 +208,14 @@ public class Monster : MonoBehaviour, IPlayerPositionChangeEvent
                 else
                 {
                     transform.localScale = new Vector3( ai.velocity.x > 0 ? -flipX : flipX, flipY, 1 );
-
-                }
-                break;
-            case MonsterState.Attack:
-                {
-                    if ( dir.magnitude > m_atkDistance )
-                    {
-                        SetState( MonsterState.FollowTarget );
-                    }
                 }
                 break;
             default:
                 break;
         }
     }
+
+
 
     public void SetState( MonsterState newState )
     {
@@ -267,6 +259,9 @@ public class Monster : MonoBehaviour, IPlayerPositionChangeEvent
         //animator.SetBool( "atk", true );
         animator.CrossFade( "Attack", 0.2f );
         ai.isStopped = true;
+
+        var dir = playerTrans.position - transform.position;
+        transform.localScale = new Vector3( dir.x > 0 ? -flipX : flipX, flipY, 1 );
     }
     protected virtual void OnEnterPatrolState( MonsterState oldState )
     {
@@ -308,13 +303,12 @@ public class Monster : MonoBehaviour, IPlayerPositionChangeEvent
         if ( playerTrans != null )
         {
             ai.isStopped = false;
-            Timer.SetTimeout( 0.12f, ai.SearchPath );
+            Timer.SetTimeout( 0.1f, ai.SearchPath );
         }
     }
 
     public void OnAttack( )
     {
-
 
         var dir = playerTrans.position - transform.position;
 
@@ -327,6 +321,7 @@ public class Monster : MonoBehaviour, IPlayerPositionChangeEvent
                 int critRate = UnityEngine.Random.value < 0.1f ? 2 : 1;
                 float realHarm = m_attackHarm * critRate * g_playerControl.creature.defense;
                 g_playerControl.creature.Hp -= realHarm;
+
                 //飘字
                 MsgFire.Event(
                        GameEventName.ON_FLY_HARMTEXT,
@@ -336,6 +331,7 @@ public class Monster : MonoBehaviour, IPlayerPositionChangeEvent
         }
         else
         {
+
             //远程的发射子弹
             var obj = ObjectPool.Instance.GetObject( m_bulletPrefab );
             obj.transform.position = m_muzzle.position;

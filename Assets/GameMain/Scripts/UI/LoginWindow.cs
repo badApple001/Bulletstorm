@@ -1,3 +1,4 @@
+using BulletHell;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -16,5 +17,8 @@ public class LoginWindow : MonoBehaviour
         Time.timeScale = 1f;
         DiskAgent.Load<GameData>( ).firstInGame = true;
         UIManager.Close<LoginWindow>( );
+
+
+        GameObject.FindAnyObjectByType<PlayerMovement>( ).enabled = true;
     }
 }

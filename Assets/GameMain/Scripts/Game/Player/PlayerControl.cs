@@ -27,6 +27,7 @@ public class PlayerControl : MonoBehaviour
             Debug.Log( "玩家死亡" );
             GetComponent<WeaponList>( ).DisableAllWeapon( );
             UIManager.Create<GameOverWindow>( );
+            gameObject.SetActive( false );
         }
     }
 

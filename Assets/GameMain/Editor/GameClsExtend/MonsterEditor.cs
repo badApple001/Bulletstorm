@@ -2,7 +2,8 @@ using UnityEditor;
 using UnityEngine;
 using static Monster;
 
-[CustomEditor( typeof( Monster ), true )]
+[CanEditMultipleObjects]
+[CustomEditor( typeof( Monster ), true)]
 public class MonsterEditor : Editor
 {
 
