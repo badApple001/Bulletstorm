@@ -18,6 +18,7 @@ public class Gun : MonoBehaviour
     protected float timer;
     protected float flipY;
     protected Animator animator;
+    public int ID = 0;
 
     protected virtual void Start()
     {

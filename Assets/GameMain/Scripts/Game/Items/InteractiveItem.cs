@@ -26,5 +26,6 @@ public class InteractiveItem : MonoBehaviour
         SpecialGoods,
     }
 
-
+    public ItemType itemType;
+    public int itemID;
 }

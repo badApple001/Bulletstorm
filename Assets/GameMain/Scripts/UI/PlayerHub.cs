@@ -100,7 +100,8 @@ public class PlayerHub : MonoBehaviour
         float p = ( float ) cur / ( float ) max;
         imgHp.fillAmount = p;
 
-        hp.text = ( ( int ) cur ).ToString( );
+        float fcur = ( float ) cur;
+        hp.text = ( (int)fcur ).ToString(  );
     }
 
     //TODO: 暂时没找到相同画风的蓝条, 待定

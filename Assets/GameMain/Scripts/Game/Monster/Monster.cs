@@ -168,8 +168,7 @@ public class Monster : MonoBehaviour, IPlayerPositionChangeEvent
 
     private void Update( )
     {
-
-        var dir = playerTrans.position - transform.position;
+        var dir = playerTrans == null ? Vector3.zero : playerTrans.position - transform.position;
         switch ( m_currentState )
         {
             case MonsterState.Idle:
@@ -260,8 +259,7 @@ public class Monster : MonoBehaviour, IPlayerPositionChangeEvent
         //animator.SetBool( "atk", false );
         //animator.SetBool( "move", true );
         animator.CrossFade( "Move", 0.2f );
-        ai.isStopped = false;
-        Timer.SetTimeout( 0.05f, ai.SearchPath );
+        StartSearchPath( );
     }
     protected virtual void OnEnterAttackState( MonsterState oldState )
     {
@@ -274,8 +272,7 @@ public class Monster : MonoBehaviour, IPlayerPositionChangeEvent
     {
         //animator.SetBool( "move", true );
         animator.CrossFade( "Move", 0.2f );
-        ai.isStopped = false;
-        Timer.SetTimeout( 0.1f, ai.SearchPath );
+        StartSearchPath( );
     }
 
     protected virtual void OnEnterDeathState( MonsterState oldState )
@@ -303,8 +300,16 @@ public class Monster : MonoBehaviour, IPlayerPositionChangeEvent
         //animator.SetBool( "move", true );
         animator.CrossFade( "Move", 0.2f );
         ai.destination = m_territorialCenter;
-        ai.isStopped = false;
-        Timer.SetTimeout( 0.12f, ai.SearchPath );
+        StartSearchPath( );
+    }
+
+    private void StartSearchPath( )
+    {
+        if ( playerTrans != null )
+        {
+            ai.isStopped = false;
+            Timer.SetTimeout( 0.12f, ai.SearchPath );
+        }
     }
 
     public void OnAttack( )

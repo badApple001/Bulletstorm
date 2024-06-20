@@ -113,6 +113,7 @@ MonoBehaviour:
   m_territorialRange: 4
   m_filedOfView: 3.93
   m_attackHarm: 2
+  m_attackAnimationTime: 0.6
   m_moveSpeed: 2
   m_atkDistance: 3
   m_deathColor: {r: 1, g: 1, b: 1, a: 1}
@@ -136,6 +137,7 @@ MonoBehaviour:
   maxHp: 10000
   maxMp: 10000
   defense: 0.3
+  lv: 1
 --- !u!114 &6958711256202075640
 MonoBehaviour:
   m_ObjectHideFlags: 0
