@@ -33,8 +33,8 @@ MonoBehaviour:
   - bundleName: assets_assetbundleresources_game_bullet
     bundlePath: Assets/AssetBundleResources/Game/Bullet
     bundleKey: assets_assetbundleresources_game_bullet
-    bundleSize: 23382
-    bundleFormatBytes: 22.8 KB
+    bundleSize: 27880
+    bundleFormatBytes: 27.2 KB
     objectInfoList:
     - objectName: Bullet
       objectExtension: .prefab
@@ -67,6 +67,14 @@ MonoBehaviour:
       bundleName: assets_assetbundleresources_game_bullet
       objectSize: 4784
       objectFormatBytes: 4.7 KB
+      objectValid: 1
+    - objectName: RobotBullet
+      objectExtension: .prefab
+      objectPath: Assets/AssetBundleResources/Game/Bullet/RobotBullet.prefab
+      objectType: UnityEngine.GameObject
+      bundleName: assets_assetbundleresources_game_bullet
+      objectSize: 4498
+      objectFormatBytes: 4.4 KB
       objectValid: 1
     - objectName: Rocket
       objectExtension: .prefab
@@ -140,7 +148,7 @@ MonoBehaviour:
   - bundleName: assets_assetbundleresources_game_monsters
     bundlePath: Assets/AssetBundleResources/Game/Monsters
     bundleKey: assets_assetbundleresources_game_monsters
-    bundleSize: 5032074
+    bundleSize: 5083908
     bundleFormatBytes: 4.8 MB
     objectInfoList:
     - objectName: m11Projectile
@@ -415,21 +423,53 @@ MonoBehaviour:
       objectSize: 2933
       objectFormatBytes: 2.9 KB
       objectValid: 1
+    - objectName: Birdy
+      objectExtension: .prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/Birdy.prefab
+      objectType: UnityEngine.GameObject
+      bundleName: assets_assetbundleresources_game_monsters
+      objectSize: 10106
+      objectFormatBytes: 9.9 KB
+      objectValid: 1
+    - objectName: Box Monster
+      objectExtension: .prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/Box Monster.prefab
+      objectType: UnityEngine.GameObject
+      bundleName: assets_assetbundleresources_game_monsters
+      objectSize: 9932
+      objectFormatBytes: 9.7 KB
+      objectValid: 1
+    - objectName: Goblin
+      objectExtension: .prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/Goblin.prefab
+      objectType: UnityEngine.GameObject
+      bundleName: assets_assetbundleresources_game_monsters
+      objectSize: 9923
+      objectFormatBytes: 9.7 KB
+      objectValid: 1
     - objectName: Moth
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/Moth.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 10454
+      objectSize: 10491
       objectFormatBytes: 10.2 KB
+      objectValid: 1
+    - objectName: Slime 1
+      objectExtension: .prefab
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/Slime 1.prefab
+      objectType: UnityEngine.GameObject
+      bundleName: assets_assetbundleresources_game_monsters
+      objectSize: 9573
+      objectFormatBytes: 9.3 KB
       objectValid: 1
     - objectName: Slime
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/Slime.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 9562
-      objectFormatBytes: 9.3 KB
+      objectSize: 9748
+      objectFormatBytes: 9.5 KB
       objectValid: 1
     - objectName: Dead
       objectExtension: .anim
@@ -724,7 +764,7 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 13/monster13.controller
       objectType: UnityEditor.Animations.AnimatorController
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 6518
+      objectSize: 6586
       objectFormatBytes: 6.4 KB
       objectValid: 1
     - objectName: Walk
@@ -828,8 +868,8 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 15/monster15.controller
       objectType: UnityEditor.Animations.AnimatorController
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 5548
-      objectFormatBytes: 5.4 KB
+      objectSize: 7148
+      objectFormatBytes: 7.0 KB
       objectValid: 1
     - objectName: Attack
       objectExtension: .anim
@@ -932,8 +972,17 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 17/monster17.controller
       objectType: UnityEditor.Animations.AnimatorController
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 4400
-      objectFormatBytes: 4.3 KB
+      objectSize: 6582
+      objectFormatBytes: 6.4 KB
+      objectValid: 1
+    - objectName: New Render Texture
+      objectExtension: .rendertexture
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 17/New
+        Render Texture.rendertexture
+      objectType: UnityEngine.RenderTexture
+      bundleName: assets_assetbundleresources_game_monsters
+      objectSize: 885
+      objectFormatBytes: 0.9 KB
       objectValid: 1
     - objectName: Walk
       objectExtension: .anim
@@ -942,6 +991,14 @@ MonoBehaviour:
       bundleName: assets_assetbundleresources_game_monsters
       objectSize: 2706
       objectFormatBytes: 2.6 KB
+      objectValid: 1
+    - objectName: Attack
+      objectExtension: .anim
+      objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 18/Attack.anim
+      objectType: UnityEngine.AnimationClip
+      bundleName: assets_assetbundleresources_game_monsters
+      objectSize: 3503
+      objectFormatBytes: 3.4 KB
       objectValid: 1
     - objectName: Dead
       objectExtension: .anim
@@ -980,8 +1037,8 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 18/monster18.controller
       objectType: UnityEditor.Animations.AnimatorController
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 4388
-      objectFormatBytes: 4.3 KB
+      objectSize: 6559
+      objectFormatBytes: 6.4 KB
       objectValid: 1
     - objectName: Appear
       objectExtension: .anim
@@ -1036,8 +1093,8 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 19/monster19.controller
       objectType: UnityEditor.Animations.AnimatorController
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 6783
-      objectFormatBytes: 6.6 KB
+      objectSize: 6575
+      objectFormatBytes: 6.4 KB
       objectValid: 1
     - objectName: Run
       objectExtension: .anim
@@ -1356,8 +1413,8 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 5/monster5.controller
       objectType: UnityEditor.Animations.AnimatorController
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 5189
-      objectFormatBytes: 5.1 KB
+      objectSize: 6563
+      objectFormatBytes: 6.4 KB
       objectValid: 1
     - objectName: Walk
       objectExtension: .anim
@@ -1676,8 +1733,8 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 9/monster9.controller
       objectType: UnityEditor.Animations.AnimatorController
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 5183
-      objectFormatBytes: 5.1 KB
+      objectSize: 6570
+      objectFormatBytes: 6.4 KB
       objectValid: 1
     - objectName: Run
       objectExtension: .anim
@@ -3937,8 +3994,8 @@ MonoBehaviour:
   - bundleName: assets_assetbundleresources_materials
     bundlePath: Assets/AssetBundleResources/Materials
     bundleKey: assets_assetbundleresources_materials
-    bundleSize: 7257
-    bundleFormatBytes: 7.1 KB
+    bundleSize: 15900
+    bundleFormatBytes: 15.5 KB
     objectInfoList:
     - objectName: BrightMaterial
       objectExtension: .mat
@@ -3948,13 +4005,21 @@ MonoBehaviour:
       objectSize: 841
       objectFormatBytes: 0.8 KB
       objectValid: 1
-    - objectName: Ground
+    - objectName: Exp
       objectExtension: .mat
-      objectPath: Assets/AssetBundleResources/Materials/Ground.mat
+      objectPath: Assets/AssetBundleResources/Materials/Exp.mat
       objectType: UnityEngine.Material
       bundleName: assets_assetbundleresources_materials
-      objectSize: 2125
-      objectFormatBytes: 2.1 KB
+      objectSize: 4041
+      objectFormatBytes: 3.9 KB
+      objectValid: 1
+    - objectName: ExpPoint
+      objectExtension: .mat
+      objectPath: Assets/AssetBundleResources/Materials/ExpPoint.mat
+      objectType: UnityEngine.Material
+      bundleName: assets_assetbundleresources_materials
+      objectSize: 4046
+      objectFormatBytes: 4.0 KB
       objectValid: 1
     - objectName: PlayerTail
       objectExtension: .mat
@@ -3963,6 +4028,22 @@ MonoBehaviour:
       bundleName: assets_assetbundleresources_materials
       objectSize: 4291
       objectFormatBytes: 4.2 KB
+      objectValid: 1
+    - objectName: SpriteLight
+      objectExtension: .mat
+      objectPath: Assets/AssetBundleResources/Materials/SpriteLight.mat
+      objectType: UnityEngine.Material
+      bundleName: assets_assetbundleresources_materials
+      objectSize: 1427
+      objectFormatBytes: 1.4 KB
+      objectValid: 1
+    - objectName: WeaponDefault
+      objectExtension: .mat
+      objectPath: Assets/AssetBundleResources/Materials/WeaponDefault.mat
+      objectType: UnityEngine.Material
+      bundleName: assets_assetbundleresources_materials
+      objectSize: 1254
+      objectFormatBytes: 1.2 KB
       objectValid: 1
     dependentBundleKeyList:
     - bundleKey: assets_assetbundleresources_shaders
@@ -3974,9 +4055,17 @@ MonoBehaviour:
   - bundleName: assets_assetbundleresources_shaders
     bundlePath: Assets/AssetBundleResources/Shaders
     bundleKey: assets_assetbundleresources_shaders
-    bundleSize: 0
-    bundleFormatBytes: 0 B
-    objectInfoList: []
+    bundleSize: 1863
+    bundleFormatBytes: 1.8 KB
+    objectInfoList:
+    - objectName: SpriteLight
+      objectExtension: .shader
+      objectPath: Assets/AssetBundleResources/Shaders/SpriteLight.shader
+      objectType: UnityEngine.Shader
+      bundleName: assets_assetbundleresources_shaders
+      objectSize: 1863
+      objectFormatBytes: 1.8 KB
+      objectValid: 1
     dependentBundleKeyList: []
     splittable: 0
     subBundleInfoList: []
@@ -4009,8 +4098,8 @@ MonoBehaviour:
   - bundleName: assets_assetbundleresources_ui
     bundlePath: Assets/AssetBundleResources/UI
     bundleKey: assets_assetbundleresources_ui
-    bundleSize: 81927
-    bundleFormatBytes: 80.0 KB
+    bundleSize: 73264
+    bundleFormatBytes: 71.5 KB
     objectInfoList:
     - objectName: GameOverWindow
       objectExtension: .prefab
@@ -4033,8 +4122,8 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/UI/LoginWindow.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_ui
-      objectSize: 26665
-      objectFormatBytes: 26.0 KB
+      objectSize: 18002
+      objectFormatBytes: 17.6 KB
       objectValid: 1
     dependentBundleKeyList:
     - bundleKey: assets_assetbundleresources_fonts
@@ -4046,9 +4135,17 @@ MonoBehaviour:
   - bundleName: assets_assetbundleresources_sprite
     bundlePath: Assets/AssetBundleResources/Sprite
     bundleKey: assets_assetbundleresources_sprite
-    bundleSize: 35073
-    bundleFormatBytes: 34.3 KB
+    bundleSize: 39793
+    bundleFormatBytes: 38.9 KB
     objectInfoList:
+    - objectName: coin_icon
+      objectExtension: .png
+      objectPath: Assets/AssetBundleResources/Sprite/coin_icon.png
+      objectType: UnityEngine.Texture2D
+      bundleName: assets_assetbundleresources_sprite
+      objectSize: 4720
+      objectFormatBytes: 4.6 KB
+      objectValid: 1
     - objectName: hp
       objectExtension: .png
       objectPath: Assets/AssetBundleResources/Sprite/hp.png
@@ -4091,6 +4188,35 @@ MonoBehaviour:
       objectFormatBytes: 76.5 KB
       objectValid: 1
     dependentBundleKeyList: []
+    splittable: 0
+    subBundleInfoList: []
+  - bundleName: assets_assetbundleresources_game_prefabs
+    bundlePath: Assets/AssetBundleResources/Game/Prefabs
+    bundleKey: assets_assetbundleresources_game_prefabs
+    bundleSize: 10763
+    bundleFormatBytes: 10.5 KB
+    objectInfoList:
+    - objectName: DropItem
+      objectExtension: .prefab
+      objectPath: Assets/AssetBundleResources/Game/Prefabs/DropItem.prefab
+      objectType: UnityEngine.GameObject
+      bundleName: assets_assetbundleresources_game_prefabs
+      objectSize: 4648
+      objectFormatBytes: 4.5 KB
+      objectValid: 1
+    - objectName: ExpEffect
+      objectExtension: .prefab
+      objectPath: Assets/AssetBundleResources/Game/Prefabs/ExpEffect.prefab
+      objectType: UnityEngine.GameObject
+      bundleName: assets_assetbundleresources_game_prefabs
+      objectSize: 6115
+      objectFormatBytes: 6.0 KB
+      objectValid: 1
+    dependentBundleKeyList:
+    - bundleKey: assets_assetbundleresources_materials
+      bundleName: assets_assetbundleresources_materials
+    - bundleKey: assets_assetbundleresources_shaders
+      bundleName: assets_assetbundleresources_shaders
     splittable: 0
     subBundleInfoList: []
   quarkAssetExts:
