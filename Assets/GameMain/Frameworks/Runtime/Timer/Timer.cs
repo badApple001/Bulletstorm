@@ -349,19 +349,26 @@ public class Timer : MonoBehaviour
         DontDestroyOnLoad( new GameObject( "TimerManager", typeof( Timer ) ) );
     }
 
-    private void Awake( )
-    {
-        StartCoroutine( TimeElapse( ) );
-    }
 
-   
-    private IEnumerator TimeElapse( )
-    {
-        TimerTask t = null;
-        while ( true )
-        {
-            if ( activeTaskCls.Count > 0 )
+    // private void Awake( )
+    // {
+    //     StartCoroutine( TimeElapse( ) );
+    // }
+    // private IEnumerator TimeElapse( )
+    // {
+    //     TimerTask t = null;
+    //     while ( true )
+    //     {
+           
+    //         yield return 0;
+    //     }
+    // }
+
+    private void Update(){
+        
+         if ( activeTaskCls.Count > 0 )
             {
+                TimerTask t = null;
                 float time = Time.time;
                 for ( int i = 0; i < activeTaskCls.Count; ++i )
                 {
@@ -386,8 +393,6 @@ public class Timer : MonoBehaviour
                     }
                 }
             }
-            yield return 0;
-        }
     }
 
   

@@ -33,56 +33,56 @@ MonoBehaviour:
   - bundleName: assets_assetbundleresources_game_bullet
     bundlePath: Assets/AssetBundleResources/Game/Bullet
     bundleKey: assets_assetbundleresources_game_bullet
-    bundleSize: 27880
-    bundleFormatBytes: 27.2 KB
+    bundleSize: 28771
+    bundleFormatBytes: 28.1 KB
     objectInfoList:
     - objectName: Bullet
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Bullet/Bullet.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_bullet
-      objectSize: 3885
-      objectFormatBytes: 3.8 KB
+      objectSize: 4025
+      objectFormatBytes: 3.9 KB
       objectValid: 1
     - objectName: BulletShell
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Bullet/BulletShell.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_bullet
-      objectSize: 3380
-      objectFormatBytes: 3.3 KB
+      objectSize: 3504
+      objectFormatBytes: 3.4 KB
       objectValid: 1
     - objectName: BulletTracer
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Bullet/BulletTracer.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_bullet
-      objectSize: 4140
-      objectFormatBytes: 4.0 KB
+      objectSize: 4297
+      objectFormatBytes: 4.2 KB
       objectValid: 1
     - objectName: MonsterBullet
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Bullet/MonsterBullet.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_bullet
-      objectSize: 4784
-      objectFormatBytes: 4.7 KB
+      objectSize: 4914
+      objectFormatBytes: 4.8 KB
       objectValid: 1
     - objectName: RobotBullet
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Bullet/RobotBullet.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_bullet
-      objectSize: 4498
-      objectFormatBytes: 4.4 KB
+      objectSize: 4620
+      objectFormatBytes: 4.5 KB
       objectValid: 1
     - objectName: Rocket
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Bullet/Rocket.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_bullet
-      objectSize: 7193
-      objectFormatBytes: 7.0 KB
+      objectSize: 7411
+      objectFormatBytes: 7.2 KB
       objectValid: 1
     dependentBundleKeyList:
     - bundleKey: assets_assetbundleresources_game_monsters
@@ -92,40 +92,40 @@ MonoBehaviour:
   - bundleName: assets_assetbundleresources_game_bulletcrasheffect
     bundlePath: Assets/AssetBundleResources/Game/BulletCrashEffect
     bundleKey: assets_assetbundleresources_game_bulletcrasheffect
-    bundleSize: 238528
-    bundleFormatBytes: 232.9 KB
+    bundleSize: 248343
+    bundleFormatBytes: 242.5 KB
     objectInfoList:
     - objectName: Effect
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/BulletCrashEffect/Effect.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_bulletcrasheffect
-      objectSize: 116775
-      objectFormatBytes: 114.0 KB
+      objectSize: 121601
+      objectFormatBytes: 118.8 KB
       objectValid: 1
     - objectName: Explosion
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/BulletCrashEffect/Explosion.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_bulletcrasheffect
-      objectSize: 3336
-      objectFormatBytes: 3.3 KB
+      objectSize: 3453
+      objectFormatBytes: 3.4 KB
       objectValid: 1
     - objectName: RoctetExplosion
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/BulletCrashEffect/RoctetExplosion.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_bulletcrasheffect
-      objectSize: 3345
-      objectFormatBytes: 3.3 KB
+      objectSize: 3461
+      objectFormatBytes: 3.4 KB
       objectValid: 1
     - objectName: Smoke
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/BulletCrashEffect/Smoke.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_bulletcrasheffect
-      objectSize: 115072
-      objectFormatBytes: 112.4 KB
+      objectSize: 119828
+      objectFormatBytes: 117.0 KB
       objectValid: 1
     dependentBundleKeyList:
     - bundleKey: assets_assetbundleresources_materials
@@ -148,343 +148,343 @@ MonoBehaviour:
   - bundleName: assets_assetbundleresources_game_monsters
     bundlePath: Assets/AssetBundleResources/Game/Monsters
     bundleKey: assets_assetbundleresources_game_monsters
-    bundleSize: 5083908
-    bundleFormatBytes: 4.8 MB
+    bundleSize: 5107138
+    bundleFormatBytes: 4.9 MB
     objectInfoList:
     - objectName: m11Projectile
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Models/m11Projectile.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2938
-      objectFormatBytes: 2.9 KB
+      objectSize: 3042
+      objectFormatBytes: 3.0 KB
       objectValid: 1
     - objectName: m14Spike
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Models/m14Spike.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2287
-      objectFormatBytes: 2.2 KB
+      objectSize: 2371
+      objectFormatBytes: 2.3 KB
       objectValid: 1
     - objectName: m16AttackFX
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Models/m16AttackFX.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2935
-      objectFormatBytes: 2.9 KB
+      objectSize: 3039
+      objectFormatBytes: 3.0 KB
       objectValid: 1
     - objectName: m17AttackFX
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Models/m17AttackFX.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2926
-      objectFormatBytes: 2.9 KB
+      objectSize: 3030
+      objectFormatBytes: 3.0 KB
       objectValid: 1
     - objectName: m17Bullet
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Models/m17Bullet.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2287
-      objectFormatBytes: 2.2 KB
+      objectSize: 2371
+      objectFormatBytes: 2.3 KB
       objectValid: 1
     - objectName: m20Projectile
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Models/m20Projectile.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2294
-      objectFormatBytes: 2.2 KB
+      objectSize: 2378
+      objectFormatBytes: 2.3 KB
       objectValid: 1
     - objectName: m2Projectile
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Models/m2Projectile.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2935
-      objectFormatBytes: 2.9 KB
+      objectSize: 3039
+      objectFormatBytes: 3.0 KB
       objectValid: 1
     - objectName: m3Projectile
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Models/m3Projectile.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2936
-      objectFormatBytes: 2.9 KB
+      objectSize: 3040
+      objectFormatBytes: 3.0 KB
       objectValid: 1
     - objectName: m5Projectile
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Models/m5Projectile.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2293
-      objectFormatBytes: 2.2 KB
+      objectSize: 2377
+      objectFormatBytes: 2.3 KB
       objectValid: 1
     - objectName: m6Projectile
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Models/m6Projectile.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2293
-      objectFormatBytes: 2.2 KB
+      objectSize: 2377
+      objectFormatBytes: 2.3 KB
       objectValid: 1
     - objectName: m6Tentacle
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Models/m6Tentacle.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2935
-      objectFormatBytes: 2.9 KB
+      objectSize: 3039
+      objectFormatBytes: 3.0 KB
       objectValid: 1
     - objectName: m7DustFX
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Models/m7DustFX.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2934
-      objectFormatBytes: 2.9 KB
+      objectSize: 3038
+      objectFormatBytes: 3.0 KB
       objectValid: 1
     - objectName: m7Spike
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Models/m7Spike.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2288
-      objectFormatBytes: 2.2 KB
+      objectSize: 2372
+      objectFormatBytes: 2.3 KB
       objectValid: 1
     - objectName: m8FirebreathFX
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Models/m8FirebreathFX.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2934
-      objectFormatBytes: 2.9 KB
+      objectSize: 3038
+      objectFormatBytes: 3.0 KB
       objectValid: 1
     - objectName: monster1
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster1.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2928
-      objectFormatBytes: 2.9 KB
+      objectSize: 3032
+      objectFormatBytes: 3.0 KB
       objectValid: 1
     - objectName: monster10
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster10.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2932
-      objectFormatBytes: 2.9 KB
+      objectSize: 3036
+      objectFormatBytes: 3.0 KB
       objectValid: 1
     - objectName: monster11
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster11.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2934
-      objectFormatBytes: 2.9 KB
+      objectSize: 3038
+      objectFormatBytes: 3.0 KB
       objectValid: 1
     - objectName: monster12
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster12.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2933
-      objectFormatBytes: 2.9 KB
+      objectSize: 3037
+      objectFormatBytes: 3.0 KB
       objectValid: 1
     - objectName: monster13
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster13.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2935
-      objectFormatBytes: 2.9 KB
+      objectSize: 3039
+      objectFormatBytes: 3.0 KB
       objectValid: 1
     - objectName: monster14
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster14.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2929
-      objectFormatBytes: 2.9 KB
+      objectSize: 3033
+      objectFormatBytes: 3.0 KB
       objectValid: 1
     - objectName: monster15
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster15.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2931
-      objectFormatBytes: 2.9 KB
+      objectSize: 3035
+      objectFormatBytes: 3.0 KB
       objectValid: 1
     - objectName: monster16
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster16.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2933
-      objectFormatBytes: 2.9 KB
+      objectSize: 3037
+      objectFormatBytes: 3.0 KB
       objectValid: 1
     - objectName: monster17
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster17.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2931
-      objectFormatBytes: 2.9 KB
+      objectSize: 3035
+      objectFormatBytes: 3.0 KB
       objectValid: 1
     - objectName: monster18
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster18.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2932
-      objectFormatBytes: 2.9 KB
+      objectSize: 3036
+      objectFormatBytes: 3.0 KB
       objectValid: 1
     - objectName: monster19
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster19.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2935
-      objectFormatBytes: 2.9 KB
+      objectSize: 3039
+      objectFormatBytes: 3.0 KB
       objectValid: 1
     - objectName: monster2
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster2.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2928
-      objectFormatBytes: 2.9 KB
+      objectSize: 3032
+      objectFormatBytes: 3.0 KB
       objectValid: 1
     - objectName: monster20
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster20.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2934
-      objectFormatBytes: 2.9 KB
+      objectSize: 3038
+      objectFormatBytes: 3.0 KB
       objectValid: 1
     - objectName: monster3
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster3.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2929
-      objectFormatBytes: 2.9 KB
+      objectSize: 3033
+      objectFormatBytes: 3.0 KB
       objectValid: 1
     - objectName: monster4
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster4.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2934
-      objectFormatBytes: 2.9 KB
+      objectSize: 3038
+      objectFormatBytes: 3.0 KB
       objectValid: 1
     - objectName: monster5
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster5.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2928
-      objectFormatBytes: 2.9 KB
+      objectSize: 3032
+      objectFormatBytes: 3.0 KB
       objectValid: 1
     - objectName: monster6
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster6.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2920
-      objectFormatBytes: 2.9 KB
+      objectSize: 3024
+      objectFormatBytes: 3.0 KB
       objectValid: 1
     - objectName: monster7
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster7.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2912
-      objectFormatBytes: 2.8 KB
+      objectSize: 3016
+      objectFormatBytes: 2.9 KB
       objectValid: 1
     - objectName: monster8
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster8.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2929
-      objectFormatBytes: 2.9 KB
+      objectSize: 3033
+      objectFormatBytes: 3.0 KB
       objectValid: 1
     - objectName: monster9
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Models/monster9.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2933
-      objectFormatBytes: 2.9 KB
+      objectSize: 3037
+      objectFormatBytes: 3.0 KB
       objectValid: 1
     - objectName: Birdy
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/Birdy.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 10106
-      objectFormatBytes: 9.9 KB
+      objectSize: 10418
+      objectFormatBytes: 10.2 KB
       objectValid: 1
     - objectName: Box Monster
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/Box Monster.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 9932
-      objectFormatBytes: 9.7 KB
+      objectSize: 10240
+      objectFormatBytes: 10.0 KB
       objectValid: 1
     - objectName: Goblin
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/Goblin.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 9923
-      objectFormatBytes: 9.7 KB
+      objectSize: 10231
+      objectFormatBytes: 10.0 KB
       objectValid: 1
     - objectName: Moth
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/Moth.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 10491
-      objectFormatBytes: 10.2 KB
+      objectSize: 10823
+      objectFormatBytes: 10.6 KB
       objectValid: 1
     - objectName: Slime 1
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/Slime 1.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 9573
-      objectFormatBytes: 9.3 KB
+      objectSize: 9873
+      objectFormatBytes: 9.6 KB
       objectValid: 1
     - objectName: Slime
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Monsters/Prefabs/Slime.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 9748
-      objectFormatBytes: 9.5 KB
+      objectSize: 10052
+      objectFormatBytes: 9.8 KB
       objectValid: 1
     - objectName: Dead
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 1/Dead.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3893
-      objectFormatBytes: 3.8 KB
+      objectSize: 3994
+      objectFormatBytes: 3.9 KB
       objectValid: 1
     - objectName: Hit
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 1/Hit.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2112
+      objectSize: 2186
       objectFormatBytes: 2.1 KB
       objectValid: 1
     - objectName: monster1
@@ -492,55 +492,55 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 1/monster1.controller
       objectType: UnityEditor.Animations.AnimatorController
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3604
-      objectFormatBytes: 3.5 KB
+      objectSize: 3734
+      objectFormatBytes: 3.6 KB
       objectValid: 1
     - objectName: Walk
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 1/Walk.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2909
-      objectFormatBytes: 2.8 KB
+      objectSize: 2995
+      objectFormatBytes: 2.9 KB
       objectValid: 1
     - objectName: Attack1
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 10/Attack1.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2912
-      objectFormatBytes: 2.8 KB
+      objectSize: 2998
+      objectFormatBytes: 2.9 KB
       objectValid: 1
     - objectName: Attack2
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 10/Attack2.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2912
-      objectFormatBytes: 2.8 KB
+      objectSize: 2998
+      objectFormatBytes: 2.9 KB
       objectValid: 1
     - objectName: Blink
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 10/Blink.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2679
-      objectFormatBytes: 2.6 KB
+      objectSize: 2762
+      objectFormatBytes: 2.7 KB
       objectValid: 1
     - objectName: Dead
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 10/Dead.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 4295
-      objectFormatBytes: 4.2 KB
+      objectSize: 4402
+      objectFormatBytes: 4.3 KB
       objectValid: 1
     - objectName: Fall
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 10/Fall.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2315
+      objectSize: 2392
       objectFormatBytes: 2.3 KB
       objectValid: 1
     - objectName: Hit
@@ -548,7 +548,7 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 10/Hit.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2314
+      objectSize: 2391
       objectFormatBytes: 2.3 KB
       objectValid: 1
     - objectName: Idle
@@ -556,15 +556,15 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 10/Idle.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2680
-      objectFormatBytes: 2.6 KB
+      objectSize: 2763
+      objectFormatBytes: 2.7 KB
       objectValid: 1
     - objectName: Jump
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 10/Jump.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2309
+      objectSize: 2386
       objectFormatBytes: 2.3 KB
       objectValid: 1
     - objectName: Landing
@@ -572,7 +572,7 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 10/Landing.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2118
+      objectSize: 2192
       objectFormatBytes: 2.1 KB
       objectValid: 1
     - objectName: monster10
@@ -580,23 +580,23 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 10/monster10.controller
       objectType: UnityEditor.Animations.AnimatorController
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 9954
-      objectFormatBytes: 9.7 KB
+      objectSize: 10316
+      objectFormatBytes: 10.1 KB
       objectValid: 1
     - objectName: Run
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 10/Run.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3107
-      objectFormatBytes: 3.0 KB
+      objectSize: 3196
+      objectFormatBytes: 3.1 KB
       objectValid: 1
     - objectName: TakeOff
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 10/TakeOff.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2118
+      objectSize: 2192
       objectFormatBytes: 2.1 KB
       objectValid: 1
     - objectName: Attack
@@ -604,15 +604,15 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 11/Attack.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 4692
-      objectFormatBytes: 4.6 KB
+      objectSize: 4805
+      objectFormatBytes: 4.7 KB
       objectValid: 1
     - objectName: DeadAir
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 11/DeadAir.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2318
+      objectSize: 2395
       objectFormatBytes: 2.3 KB
       objectValid: 1
     - objectName: DeadGround
@@ -620,15 +620,15 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 11/DeadGround.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3706
-      objectFormatBytes: 3.6 KB
+      objectSize: 3804
+      objectFormatBytes: 3.7 KB
       objectValid: 1
     - objectName: Fly
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 11/Fly.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2314
+      objectSize: 2391
       objectFormatBytes: 2.3 KB
       objectValid: 1
     - objectName: Hit
@@ -636,7 +636,7 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 11/Hit.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2314
+      objectSize: 2391
       objectFormatBytes: 2.3 KB
       objectValid: 1
     - objectName: Idle
@@ -644,31 +644,31 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 11/Idle.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3100
-      objectFormatBytes: 3.0 KB
+      objectSize: 3189
+      objectFormatBytes: 3.1 KB
       objectValid: 1
     - objectName: m11Projectile
       objectExtension: .controller
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 11/m11Projectile.controller
       objectType: UnityEditor.Animations.AnimatorController
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2033
-      objectFormatBytes: 2.0 KB
+      objectSize: 2105
+      objectFormatBytes: 2.1 KB
       objectValid: 1
     - objectName: monster11
       objectExtension: .controller
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 11/monster11.controller
       objectType: UnityEditor.Animations.AnimatorController
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 5985
-      objectFormatBytes: 5.8 KB
+      objectSize: 6202
+      objectFormatBytes: 6.1 KB
       objectValid: 1
     - objectName: Projectile
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 11/Projectile.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2319
+      objectSize: 2396
       objectFormatBytes: 2.3 KB
       objectValid: 1
     - objectName: Attack
@@ -676,23 +676,23 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 12/Attack.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2710
-      objectFormatBytes: 2.6 KB
+      objectSize: 2793
+      objectFormatBytes: 2.7 KB
       objectValid: 1
     - objectName: Blink
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 12/Blink.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2711
-      objectFormatBytes: 2.6 KB
+      objectSize: 2794
+      objectFormatBytes: 2.7 KB
       objectValid: 1
     - objectName: Dead
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 12/Dead.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2714
+      objectSize: 2797
       objectFormatBytes: 2.7 KB
       objectValid: 1
     - objectName: Hit
@@ -700,7 +700,7 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 12/Hit.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2114
+      objectSize: 2188
       objectFormatBytes: 2.1 KB
       objectValid: 1
     - objectName: Idle
@@ -708,23 +708,23 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 12/Idle.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2706
-      objectFormatBytes: 2.6 KB
+      objectSize: 2789
+      objectFormatBytes: 2.7 KB
       objectValid: 1
     - objectName: monster12
       objectExtension: .controller
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 12/monster12.controller
       objectType: UnityEditor.Animations.AnimatorController
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 5984
-      objectFormatBytes: 5.8 KB
+      objectSize: 6201
+      objectFormatBytes: 6.1 KB
       objectValid: 1
     - objectName: Run
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 12/Run.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2715
+      objectSize: 2798
       objectFormatBytes: 2.7 KB
       objectValid: 1
     - objectName: Attack
@@ -732,23 +732,23 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 13/Attack.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2710
-      objectFormatBytes: 2.6 KB
+      objectSize: 2793
+      objectFormatBytes: 2.7 KB
       objectValid: 1
     - objectName: Dead
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 13/Dead.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 4090
-      objectFormatBytes: 4.0 KB
+      objectSize: 4194
+      objectFormatBytes: 4.1 KB
       objectValid: 1
     - objectName: Hit
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 13/Hit.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2116
+      objectSize: 2190
       objectFormatBytes: 2.1 KB
       objectValid: 1
     - objectName: Idle
@@ -756,55 +756,55 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 13/Idle.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2706
-      objectFormatBytes: 2.6 KB
+      objectSize: 2789
+      objectFormatBytes: 2.7 KB
       objectValid: 1
     - objectName: monster13
       objectExtension: .controller
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 13/monster13.controller
       objectType: UnityEditor.Animations.AnimatorController
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 6586
-      objectFormatBytes: 6.4 KB
+      objectSize: 6826
+      objectFormatBytes: 6.7 KB
       objectValid: 1
     - objectName: Walk
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 13/Walk.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2712
-      objectFormatBytes: 2.6 KB
+      objectSize: 2795
+      objectFormatBytes: 2.7 KB
       objectValid: 1
     - objectName: Attack
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 14/Attack.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3501
-      objectFormatBytes: 3.4 KB
+      objectSize: 3596
+      objectFormatBytes: 3.5 KB
       objectValid: 1
     - objectName: Dead1
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 14/Dead1.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3888
-      objectFormatBytes: 3.8 KB
+      objectSize: 3989
+      objectFormatBytes: 3.9 KB
       objectValid: 1
     - objectName: Dead2
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 14/Dead2.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3894
-      objectFormatBytes: 3.8 KB
+      objectSize: 3995
+      objectFormatBytes: 3.9 KB
       objectValid: 1
     - objectName: Hit1
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 14/Hit1.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2113
+      objectSize: 2187
       objectFormatBytes: 2.1 KB
       objectValid: 1
     - objectName: Hit2
@@ -812,7 +812,7 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 14/Hit2.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2113
+      objectSize: 2187
       objectFormatBytes: 2.1 KB
       objectValid: 1
     - objectName: monster14
@@ -820,39 +820,39 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 14/monster14.controller
       objectType: UnityEditor.Animations.AnimatorController
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 5981
-      objectFormatBytes: 5.8 KB
+      objectSize: 6198
+      objectFormatBytes: 6.1 KB
       objectValid: 1
     - objectName: Walk
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 14/Walk.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3104
-      objectFormatBytes: 3.0 KB
+      objectSize: 3193
+      objectFormatBytes: 3.1 KB
       objectValid: 1
     - objectName: Attack
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 15/Attack.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 7454
-      objectFormatBytes: 7.3 KB
+      objectSize: 7609
+      objectFormatBytes: 7.4 KB
       objectValid: 1
     - objectName: Dead
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 15/Dead.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 11054
-      objectFormatBytes: 10.8 KB
+      objectSize: 11263
+      objectFormatBytes: 11.0 KB
       objectValid: 1
     - objectName: Hit
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 15/Hit.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2314
+      objectSize: 2391
       objectFormatBytes: 2.3 KB
       objectValid: 1
     - objectName: Idle
@@ -860,63 +860,63 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 15/Idle.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 7454
-      objectFormatBytes: 7.3 KB
+      objectSize: 7609
+      objectFormatBytes: 7.4 KB
       objectValid: 1
     - objectName: monster15
       objectExtension: .controller
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 15/monster15.controller
       objectType: UnityEditor.Animations.AnimatorController
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 7148
-      objectFormatBytes: 7.0 KB
+      objectSize: 7411
+      objectFormatBytes: 7.2 KB
       objectValid: 1
     - objectName: Attack
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 16/Attack.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 7269
-      objectFormatBytes: 7.1 KB
+      objectSize: 7421
+      objectFormatBytes: 7.2 KB
       objectValid: 1
     - objectName: AttackFX
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 16/AttackFX.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 5482
-      objectFormatBytes: 5.4 KB
+      objectSize: 5607
+      objectFormatBytes: 5.5 KB
       objectValid: 1
     - objectName: Dead
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 16/Dead.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 5273
-      objectFormatBytes: 5.1 KB
+      objectSize: 5395
+      objectFormatBytes: 5.3 KB
       objectValid: 1
     - objectName: Hit
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 16/Hit.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2507
-      objectFormatBytes: 2.4 KB
+      objectSize: 2587
+      objectFormatBytes: 2.5 KB
       objectValid: 1
     - objectName: Idle
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 16/Idle.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3501
-      objectFormatBytes: 3.4 KB
+      objectSize: 3596
+      objectFormatBytes: 3.5 KB
       objectValid: 1
     - objectName: m16AttackFX
       objectExtension: .controller
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 16/m16AttackFX.controller
       objectType: UnityEditor.Animations.AnimatorController
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2026
+      objectSize: 2098
       objectFormatBytes: 2.0 KB
       objectValid: 1
     - objectName: monster16
@@ -924,39 +924,39 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 16/monster16.controller
       objectType: UnityEditor.Animations.AnimatorController
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 4400
-      objectFormatBytes: 4.3 KB
+      objectSize: 4559
+      objectFormatBytes: 4.5 KB
       objectValid: 1
     - objectName: Attack
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 17/Attack.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3903
-      objectFormatBytes: 3.8 KB
+      objectSize: 4004
+      objectFormatBytes: 3.9 KB
       objectValid: 1
     - objectName: AttackFX
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 17/AttackFX.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3897
-      objectFormatBytes: 3.8 KB
+      objectSize: 3998
+      objectFormatBytes: 3.9 KB
       objectValid: 1
     - objectName: Dead
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 17/Dead.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 4307
-      objectFormatBytes: 4.2 KB
+      objectSize: 4414
+      objectFormatBytes: 4.3 KB
       objectValid: 1
     - objectName: Hit
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 17/Hit.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2314
+      objectSize: 2391
       objectFormatBytes: 2.3 KB
       objectValid: 1
     - objectName: m17AttackFX
@@ -964,7 +964,7 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 17/m17AttackFX.controller
       objectType: UnityEditor.Animations.AnimatorController
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2024
+      objectSize: 2096
       objectFormatBytes: 2.0 KB
       objectValid: 1
     - objectName: monster17
@@ -972,8 +972,8 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 17/monster17.controller
       objectType: UnityEditor.Animations.AnimatorController
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 6582
-      objectFormatBytes: 6.4 KB
+      objectSize: 6822
+      objectFormatBytes: 6.7 KB
       objectValid: 1
     - objectName: New Render Texture
       objectExtension: .rendertexture
@@ -981,7 +981,7 @@ MonoBehaviour:
         Render Texture.rendertexture
       objectType: UnityEngine.RenderTexture
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 885
+      objectSize: 925
       objectFormatBytes: 0.9 KB
       objectValid: 1
     - objectName: Walk
@@ -989,39 +989,39 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 17/Walk.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2706
-      objectFormatBytes: 2.6 KB
+      objectSize: 2789
+      objectFormatBytes: 2.7 KB
       objectValid: 1
     - objectName: Attack
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 18/Attack.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3503
-      objectFormatBytes: 3.4 KB
+      objectSize: 3598
+      objectFormatBytes: 3.5 KB
       objectValid: 1
     - objectName: Dead
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 18/Dead.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 5888
-      objectFormatBytes: 5.8 KB
+      objectSize: 6019
+      objectFormatBytes: 5.9 KB
       objectValid: 1
     - objectName: Fly
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 18/Fly.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3504
-      objectFormatBytes: 3.4 KB
+      objectSize: 3599
+      objectFormatBytes: 3.5 KB
       objectValid: 1
     - objectName: Hit
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 18/Hit.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2112
+      objectSize: 2186
       objectFormatBytes: 2.1 KB
       objectValid: 1
     - objectName: Idle
@@ -1029,55 +1029,55 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 18/Idle.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3501
-      objectFormatBytes: 3.4 KB
+      objectSize: 3596
+      objectFormatBytes: 3.5 KB
       objectValid: 1
     - objectName: monster18
       objectExtension: .controller
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 18/monster18.controller
       objectType: UnityEditor.Animations.AnimatorController
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 6559
-      objectFormatBytes: 6.4 KB
+      objectSize: 6799
+      objectFormatBytes: 6.6 KB
       objectValid: 1
     - objectName: Appear
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 19/Appear.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3112
-      objectFormatBytes: 3.0 KB
+      objectSize: 3201
+      objectFormatBytes: 3.1 KB
       objectValid: 1
     - objectName: Attack
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 19/Attack.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3110
-      objectFormatBytes: 3.0 KB
+      objectSize: 3199
+      objectFormatBytes: 3.1 KB
       objectValid: 1
     - objectName: Blink
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 19/Blink.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 5083
-      objectFormatBytes: 5.0 KB
+      objectSize: 5202
+      objectFormatBytes: 5.1 KB
       objectValid: 1
     - objectName: Dead
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 19/Dead.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 4100
-      objectFormatBytes: 4.0 KB
+      objectSize: 4204
+      objectFormatBytes: 4.1 KB
       objectValid: 1
     - objectName: Hit
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 19/Hit.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 1918
+      objectSize: 1989
       objectFormatBytes: 1.9 KB
       objectValid: 1
     - objectName: Idle
@@ -1085,47 +1085,47 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 19/Idle.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2682
-      objectFormatBytes: 2.6 KB
+      objectSize: 2765
+      objectFormatBytes: 2.7 KB
       objectValid: 1
     - objectName: monster19
       objectExtension: .controller
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 19/monster19.controller
       objectType: UnityEditor.Animations.AnimatorController
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 6575
-      objectFormatBytes: 6.4 KB
+      objectSize: 6815
+      objectFormatBytes: 6.7 KB
       objectValid: 1
     - objectName: Run
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 19/Run.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3103
-      objectFormatBytes: 3.0 KB
+      objectSize: 3192
+      objectFormatBytes: 3.1 KB
       objectValid: 1
     - objectName: Attack
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 2/Attack.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 4692
-      objectFormatBytes: 4.6 KB
+      objectSize: 4805
+      objectFormatBytes: 4.7 KB
       objectValid: 1
     - objectName: Dead
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 2/Dead.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3897
-      objectFormatBytes: 3.8 KB
+      objectSize: 3998
+      objectFormatBytes: 3.9 KB
       objectValid: 1
     - objectName: Fly
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 2/Fly.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2314
+      objectSize: 2391
       objectFormatBytes: 2.3 KB
       objectValid: 1
     - objectName: Hit
@@ -1133,7 +1133,7 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 2/Hit.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2314
+      objectSize: 2391
       objectFormatBytes: 2.3 KB
       objectValid: 1
     - objectName: Idle
@@ -1141,15 +1141,15 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 2/Idle.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3112
-      objectFormatBytes: 3.0 KB
+      objectSize: 3201
+      objectFormatBytes: 3.1 KB
       objectValid: 1
     - objectName: m2Projectile
       objectExtension: .controller
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 2/m2Projectile.controller
       objectType: UnityEditor.Animations.AnimatorController
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2027
+      objectSize: 2099
       objectFormatBytes: 2.0 KB
       objectValid: 1
     - objectName: monster2
@@ -1157,15 +1157,15 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 2/monster2.controller
       objectType: UnityEditor.Animations.AnimatorController
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 9601
-      objectFormatBytes: 9.4 KB
+      objectSize: 9969
+      objectFormatBytes: 9.7 KB
       objectValid: 1
     - objectName: Projectile
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 2/Projectile.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2715
+      objectSize: 2798
       objectFormatBytes: 2.7 KB
       objectValid: 1
     - objectName: Appear
@@ -1173,39 +1173,39 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 20/Appear.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3110
-      objectFormatBytes: 3.0 KB
+      objectSize: 3199
+      objectFormatBytes: 3.1 KB
       objectValid: 1
     - objectName: Attack
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 20/Attack.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3308
-      objectFormatBytes: 3.2 KB
+      objectSize: 3400
+      objectFormatBytes: 3.3 KB
       objectValid: 1
     - objectName: Dead
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 20/Dead.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3108
-      objectFormatBytes: 3.0 KB
+      objectSize: 3197
+      objectFormatBytes: 3.1 KB
       objectValid: 1
     - objectName: Disappear
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 20/Disappear.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3506
-      objectFormatBytes: 3.4 KB
+      objectSize: 3601
+      objectFormatBytes: 3.5 KB
       objectValid: 1
     - objectName: Hit
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 20/Hit.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2112
+      objectSize: 2186
       objectFormatBytes: 2.1 KB
       objectValid: 1
     - objectName: Idle
@@ -1213,31 +1213,31 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 20/Idle.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3108
-      objectFormatBytes: 3.0 KB
+      objectSize: 3197
+      objectFormatBytes: 3.1 KB
       objectValid: 1
     - objectName: monster20
       objectExtension: .controller
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 20/monster20.controller
       objectType: UnityEditor.Animations.AnimatorController
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 5987
-      objectFormatBytes: 5.8 KB
+      objectSize: 6204
+      objectFormatBytes: 6.1 KB
       objectValid: 1
     - objectName: Attack
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 3/Attack.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 4690
-      objectFormatBytes: 4.6 KB
+      objectSize: 4803
+      objectFormatBytes: 4.7 KB
       objectValid: 1
     - objectName: DeadAir
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 3/DeadAir.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2318
+      objectSize: 2395
       objectFormatBytes: 2.3 KB
       objectValid: 1
     - objectName: DeadGround
@@ -1245,15 +1245,15 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 3/DeadGround.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3708
-      objectFormatBytes: 3.6 KB
+      objectSize: 3806
+      objectFormatBytes: 3.7 KB
       objectValid: 1
     - objectName: Fly
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 3/Fly.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2310
+      objectSize: 2387
       objectFormatBytes: 2.3 KB
       objectValid: 1
     - objectName: Hit
@@ -1261,7 +1261,7 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 3/Hit.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2314
+      objectSize: 2391
       objectFormatBytes: 2.3 KB
       objectValid: 1
     - objectName: Ilde
@@ -1269,31 +1269,31 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 3/Ilde.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3106
-      objectFormatBytes: 3.0 KB
+      objectSize: 3195
+      objectFormatBytes: 3.1 KB
       objectValid: 1
     - objectName: m3Projectile
       objectExtension: .controller
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 3/m3Projectile.controller
       objectType: UnityEditor.Animations.AnimatorController
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2030
-      objectFormatBytes: 2.0 KB
+      objectSize: 2102
+      objectFormatBytes: 2.1 KB
       objectValid: 1
     - objectName: monster3
       objectExtension: .controller
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 3/monster3.controller
       objectType: UnityEditor.Animations.AnimatorController
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 6570
-      objectFormatBytes: 6.4 KB
+      objectSize: 6810
+      objectFormatBytes: 6.7 KB
       objectValid: 1
     - objectName: Projectile
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 3/Projectile.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2721
+      objectSize: 2804
       objectFormatBytes: 2.7 KB
       objectValid: 1
     - objectName: Alert
@@ -1301,47 +1301,47 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 4/Alert.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3107
-      objectFormatBytes: 3.0 KB
+      objectSize: 3196
+      objectFormatBytes: 3.1 KB
       objectValid: 1
     - objectName: Attack
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 4/Attack.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3501
-      objectFormatBytes: 3.4 KB
+      objectSize: 3596
+      objectFormatBytes: 3.5 KB
       objectValid: 1
     - objectName: Blink
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 4/Blink.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3109
-      objectFormatBytes: 3.0 KB
+      objectSize: 3198
+      objectFormatBytes: 3.1 KB
       objectValid: 1
     - objectName: Dead
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 4/Dead.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3889
-      objectFormatBytes: 3.8 KB
+      objectSize: 3990
+      objectFormatBytes: 3.9 KB
       objectValid: 1
     - objectName: DeadImpact
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 4/DeadImpact.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3314
-      objectFormatBytes: 3.2 KB
+      objectSize: 3406
+      objectFormatBytes: 3.3 KB
       objectValid: 1
     - objectName: Hit
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 4/Hit.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2314
+      objectSize: 2391
       objectFormatBytes: 2.3 KB
       objectValid: 1
     - objectName: Idle
@@ -1349,55 +1349,55 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 4/Idle.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3110
-      objectFormatBytes: 3.0 KB
+      objectSize: 3199
+      objectFormatBytes: 3.1 KB
       objectValid: 1
     - objectName: monster4
       objectExtension: .controller
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 4/monster4.controller
       objectType: UnityEditor.Animations.AnimatorController
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 8367
-      objectFormatBytes: 8.2 KB
+      objectSize: 8671
+      objectFormatBytes: 8.5 KB
       objectValid: 1
     - objectName: Run
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 4/Run.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3107
-      objectFormatBytes: 3.0 KB
+      objectSize: 3196
+      objectFormatBytes: 3.1 KB
       objectValid: 1
     - objectName: Walk
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 4/Walk.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3112
-      objectFormatBytes: 3.0 KB
+      objectSize: 3201
+      objectFormatBytes: 3.1 KB
       objectValid: 1
     - objectName: Attack
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 5/Attack.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 4497
-      objectFormatBytes: 4.4 KB
+      objectSize: 4607
+      objectFormatBytes: 4.5 KB
       objectValid: 1
     - objectName: Dead
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 5/Dead.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3899
-      objectFormatBytes: 3.8 KB
+      objectSize: 4000
+      objectFormatBytes: 3.9 KB
       objectValid: 1
     - objectName: Hit
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 5/Hit.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2312
+      objectSize: 2389
       objectFormatBytes: 2.3 KB
       objectValid: 1
     - objectName: Idle
@@ -1405,47 +1405,47 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 5/Idle.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2294
-      objectFormatBytes: 2.2 KB
+      objectSize: 2371
+      objectFormatBytes: 2.3 KB
       objectValid: 1
     - objectName: monster5
       objectExtension: .controller
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 5/monster5.controller
       objectType: UnityEditor.Animations.AnimatorController
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 6563
-      objectFormatBytes: 6.4 KB
+      objectSize: 6803
+      objectFormatBytes: 6.6 KB
       objectValid: 1
     - objectName: Walk
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 5/Walk.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2708
-      objectFormatBytes: 2.6 KB
+      objectSize: 2791
+      objectFormatBytes: 2.7 KB
       objectValid: 1
     - objectName: Attack1
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 6/Attack1.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3709
-      objectFormatBytes: 3.6 KB
+      objectSize: 3807
+      objectFormatBytes: 3.7 KB
       objectValid: 1
     - objectName: Attack2
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 6/Attack2.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3699
-      objectFormatBytes: 3.6 KB
+      objectSize: 3797
+      objectFormatBytes: 3.7 KB
       objectValid: 1
     - objectName: m6Tentacle
       objectExtension: .controller
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 6/m6Tentacle.controller
       objectType: UnityEditor.Animations.AnimatorController
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2026
+      objectSize: 2098
       objectFormatBytes: 2.0 KB
       objectValid: 1
     - objectName: monster6
@@ -1453,31 +1453,31 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 6/monster6.controller
       objectType: UnityEditor.Animations.AnimatorController
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2819
-      objectFormatBytes: 2.8 KB
+      objectSize: 2920
+      objectFormatBytes: 2.9 KB
       objectValid: 1
     - objectName: Tentacle
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 6/Tentacle.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2909
-      objectFormatBytes: 2.8 KB
+      objectSize: 2995
+      objectFormatBytes: 2.9 KB
       objectValid: 1
     - objectName: Dead
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 7/Dead.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 8436
-      objectFormatBytes: 8.2 KB
+      objectSize: 8606
+      objectFormatBytes: 8.4 KB
       objectValid: 1
     - objectName: DustFX
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 7/DustFX.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2317
+      objectSize: 2394
       objectFormatBytes: 2.3 KB
       objectValid: 1
     - objectName: Fall
@@ -1485,7 +1485,7 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 7/Fall.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 1717
+      objectSize: 1785
       objectFormatBytes: 1.7 KB
       objectValid: 1
     - objectName: HitAir
@@ -1493,39 +1493,39 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 7/HitAir.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3116
-      objectFormatBytes: 3.0 KB
+      objectSize: 3205
+      objectFormatBytes: 3.1 KB
       objectValid: 1
     - objectName: HitGround
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 7/HitGround.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3115
-      objectFormatBytes: 3.0 KB
+      objectSize: 3204
+      objectFormatBytes: 3.1 KB
       objectValid: 1
     - objectName: Idle
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 7/Idle.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 7881
-      objectFormatBytes: 7.7 KB
+      objectSize: 8042
+      objectFormatBytes: 7.9 KB
       objectValid: 1
     - objectName: Landing
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 7/Landing.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2914
-      objectFormatBytes: 2.8 KB
+      objectSize: 3000
+      objectFormatBytes: 2.9 KB
       objectValid: 1
     - objectName: m7DustFX
       objectExtension: .controller
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 7/m7DustFX.controller
       objectType: UnityEditor.Animations.AnimatorController
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2019
+      objectSize: 2091
       objectFormatBytes: 2.0 KB
       objectValid: 1
     - objectName: monster7
@@ -1533,15 +1533,15 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 7/monster7.controller
       objectType: UnityEditor.Animations.AnimatorController
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 15574
-      objectFormatBytes: 15.2 KB
+      objectSize: 16139
+      objectFormatBytes: 15.8 KB
       objectValid: 1
     - objectName: Roar
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 7/Roar.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2313
+      objectSize: 2390
       objectFormatBytes: 2.3 KB
       objectValid: 1
     - objectName: RoarAnticipation
@@ -1549,23 +1549,23 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 7/RoarAnticipation.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3723
-      objectFormatBytes: 3.6 KB
+      objectSize: 3821
+      objectFormatBytes: 3.7 KB
       objectValid: 1
     - objectName: RoarRecoil
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 7/RoarRecoil.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 4108
-      objectFormatBytes: 4.0 KB
+      objectSize: 4212
+      objectFormatBytes: 4.1 KB
       objectValid: 1
     - objectName: RollAttack
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 7/RollAttack.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2321
+      objectSize: 2398
       objectFormatBytes: 2.3 KB
       objectValid: 1
     - objectName: RollAttackAnticipation
@@ -1573,23 +1573,23 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 7/RollAttackAnticipation.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 7688
-      objectFormatBytes: 7.5 KB
+      objectSize: 7846
+      objectFormatBytes: 7.7 KB
       objectValid: 1
     - objectName: RollAttackRecoil
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 7/RollAttackRecoil.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3725
-      objectFormatBytes: 3.6 KB
+      objectSize: 3823
+      objectFormatBytes: 3.7 KB
       objectValid: 1
     - objectName: SpikeAttack
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 7/SpikeAttack.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2318
+      objectSize: 2395
       objectFormatBytes: 2.3 KB
       objectValid: 1
     - objectName: SpikeAttackAnticipation
@@ -1597,71 +1597,71 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 7/SpikeAttackAnticipation.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3323
-      objectFormatBytes: 3.2 KB
+      objectSize: 3415
+      objectFormatBytes: 3.3 KB
       objectValid: 1
     - objectName: SpikeAttackRecoil
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 7/SpikeAttackRecoil.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3514
-      objectFormatBytes: 3.4 KB
+      objectSize: 3609
+      objectFormatBytes: 3.5 KB
       objectValid: 1
     - objectName: TakeOff
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 7/TakeOff.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 5093
-      objectFormatBytes: 5.0 KB
+      objectSize: 5212
+      objectFormatBytes: 5.1 KB
       objectValid: 1
     - objectName: Tired
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 7/Tired.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3508
-      objectFormatBytes: 3.4 KB
+      objectSize: 3603
+      objectFormatBytes: 3.5 KB
       objectValid: 1
     - objectName: Walk
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 7/Walk.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 5498
-      objectFormatBytes: 5.4 KB
+      objectSize: 5623
+      objectFormatBytes: 5.5 KB
       objectValid: 1
     - objectName: Attack
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 8/Attack.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 10053
-      objectFormatBytes: 9.8 KB
+      objectSize: 10247
+      objectFormatBytes: 10.0 KB
       objectValid: 1
     - objectName: Dead
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 8/Dead.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 7883
-      objectFormatBytes: 7.7 KB
+      objectSize: 8044
+      objectFormatBytes: 7.9 KB
       objectValid: 1
     - objectName: Firebreath
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 8/Firebreath.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 9258
-      objectFormatBytes: 9.0 KB
+      objectSize: 9440
+      objectFormatBytes: 9.2 KB
       objectValid: 1
     - objectName: Hit
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 8/Hit.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2114
+      objectSize: 2188
       objectFormatBytes: 2.1 KB
       objectValid: 1
     - objectName: Idle
@@ -1669,39 +1669,39 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 8/Idle.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2909
-      objectFormatBytes: 2.8 KB
+      objectSize: 2995
+      objectFormatBytes: 2.9 KB
       objectValid: 1
     - objectName: m8Firebreath
       objectExtension: .controller
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 8/m8Firebreath.controller
       objectType: UnityEditor.Animations.AnimatorController
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2029
-      objectFormatBytes: 2.0 KB
+      objectSize: 2101
+      objectFormatBytes: 2.1 KB
       objectValid: 1
     - objectName: monster8
       objectExtension: .controller
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 8/monster8.controller
       objectType: UnityEditor.Animations.AnimatorController
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 5185
-      objectFormatBytes: 5.1 KB
+      objectSize: 5373
+      objectFormatBytes: 5.2 KB
       objectValid: 1
     - objectName: Run
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 8/Run.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3111
-      objectFormatBytes: 3.0 KB
+      objectSize: 3200
+      objectFormatBytes: 3.1 KB
       objectValid: 1
     - objectName: Attack
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 9/Attack.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2512
+      objectSize: 2592
       objectFormatBytes: 2.5 KB
       objectValid: 1
     - objectName: Dead
@@ -1709,15 +1709,15 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 9/Dead.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3306
-      objectFormatBytes: 3.2 KB
+      objectSize: 3398
+      objectFormatBytes: 3.3 KB
       objectValid: 1
     - objectName: Hit
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 9/Hit.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2112
+      objectSize: 2186
       objectFormatBytes: 2.1 KB
       objectValid: 1
     - objectName: Idle
@@ -1725,24 +1725,24 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 9/Idle.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 2678
-      objectFormatBytes: 2.6 KB
+      objectSize: 2761
+      objectFormatBytes: 2.7 KB
       objectValid: 1
     - objectName: monster9
       objectExtension: .controller
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 9/monster9.controller
       objectType: UnityEditor.Animations.AnimatorController
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 6570
-      objectFormatBytes: 6.4 KB
+      objectSize: 6810
+      objectFormatBytes: 6.7 KB
       objectValid: 1
     - objectName: Run
       objectExtension: .anim
       objectPath: Assets/AssetBundleResources/Game/Monsters/Animation/monster 9/Run.anim
       objectType: UnityEngine.AnimationClip
       bundleName: assets_assetbundleresources_game_monsters
-      objectSize: 3107
-      objectFormatBytes: 3.0 KB
+      objectSize: 3196
+      objectFormatBytes: 3.1 KB
       objectValid: 1
     - objectName: m1_Dead
       objectExtension: .png
@@ -3994,15 +3994,15 @@ MonoBehaviour:
   - bundleName: assets_assetbundleresources_materials
     bundlePath: Assets/AssetBundleResources/Materials
     bundleKey: assets_assetbundleresources_materials
-    bundleSize: 15900
-    bundleFormatBytes: 15.5 KB
+    bundleSize: 16467
+    bundleFormatBytes: 16.1 KB
     objectInfoList:
     - objectName: BrightMaterial
       objectExtension: .mat
       objectPath: Assets/AssetBundleResources/Materials/BrightMaterial.mat
       objectType: UnityEngine.Material
       bundleName: assets_assetbundleresources_materials
-      objectSize: 841
+      objectSize: 870
       objectFormatBytes: 0.8 KB
       objectValid: 1
     - objectName: Exp
@@ -4010,31 +4010,31 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Materials/Exp.mat
       objectType: UnityEngine.Material
       bundleName: assets_assetbundleresources_materials
-      objectSize: 4041
-      objectFormatBytes: 3.9 KB
+      objectSize: 4185
+      objectFormatBytes: 4.1 KB
       objectValid: 1
     - objectName: ExpPoint
       objectExtension: .mat
       objectPath: Assets/AssetBundleResources/Materials/ExpPoint.mat
       objectType: UnityEngine.Material
       bundleName: assets_assetbundleresources_materials
-      objectSize: 4046
-      objectFormatBytes: 4.0 KB
+      objectSize: 4190
+      objectFormatBytes: 4.1 KB
       objectValid: 1
     - objectName: PlayerTail
       objectExtension: .mat
       objectPath: Assets/AssetBundleResources/Materials/PlayerTail.mat
       objectType: UnityEngine.Material
       bundleName: assets_assetbundleresources_materials
-      objectSize: 4291
-      objectFormatBytes: 4.2 KB
+      objectSize: 4442
+      objectFormatBytes: 4.3 KB
       objectValid: 1
     - objectName: SpriteLight
       objectExtension: .mat
       objectPath: Assets/AssetBundleResources/Materials/SpriteLight.mat
       objectType: UnityEngine.Material
       bundleName: assets_assetbundleresources_materials
-      objectSize: 1427
+      objectSize: 1479
       objectFormatBytes: 1.4 KB
       objectValid: 1
     - objectName: WeaponDefault
@@ -4042,8 +4042,8 @@ MonoBehaviour:
       objectPath: Assets/AssetBundleResources/Materials/WeaponDefault.mat
       objectType: UnityEngine.Material
       bundleName: assets_assetbundleresources_materials
-      objectSize: 1254
-      objectFormatBytes: 1.2 KB
+      objectSize: 1301
+      objectFormatBytes: 1.3 KB
       objectValid: 1
     dependentBundleKeyList:
     - bundleKey: assets_assetbundleresources_shaders
@@ -4098,32 +4098,32 @@ MonoBehaviour:
   - bundleName: assets_assetbundleresources_ui
     bundlePath: Assets/AssetBundleResources/UI
     bundleKey: assets_assetbundleresources_ui
-    bundleSize: 73264
-    bundleFormatBytes: 71.5 KB
+    bundleSize: 75700
+    bundleFormatBytes: 73.9 KB
     objectInfoList:
     - objectName: GameOverWindow
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/UI/GameOverWindow.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_ui
-      objectSize: 22105
-      objectFormatBytes: 21.6 KB
+      objectSize: 22845
+      objectFormatBytes: 22.3 KB
       objectValid: 1
     - objectName: GuideWindow
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/UI/GuideWindow.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_ui
-      objectSize: 33157
-      objectFormatBytes: 32.4 KB
+      objectSize: 34234
+      objectFormatBytes: 33.4 KB
       objectValid: 1
     - objectName: LoginWindow
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/UI/LoginWindow.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_ui
-      objectSize: 18002
-      objectFormatBytes: 17.6 KB
+      objectSize: 18621
+      objectFormatBytes: 18.2 KB
       objectValid: 1
     dependentBundleKeyList:
     - bundleKey: assets_assetbundleresources_fonts
@@ -4193,24 +4193,24 @@ MonoBehaviour:
   - bundleName: assets_assetbundleresources_game_prefabs
     bundlePath: Assets/AssetBundleResources/Game/Prefabs
     bundleKey: assets_assetbundleresources_game_prefabs
-    bundleSize: 10763
-    bundleFormatBytes: 10.5 KB
+    bundleSize: 11158
+    bundleFormatBytes: 10.9 KB
     objectInfoList:
     - objectName: DropItem
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Prefabs/DropItem.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_prefabs
-      objectSize: 4648
-      objectFormatBytes: 4.5 KB
+      objectSize: 4811
+      objectFormatBytes: 4.7 KB
       objectValid: 1
     - objectName: ExpEffect
       objectExtension: .prefab
       objectPath: Assets/AssetBundleResources/Game/Prefabs/ExpEffect.prefab
       objectType: UnityEngine.GameObject
       bundleName: assets_assetbundleresources_game_prefabs
-      objectSize: 6115
-      objectFormatBytes: 6.0 KB
+      objectSize: 6347
+      objectFormatBytes: 6.2 KB
       objectValid: 1
     dependentBundleKeyList:
     - bundleKey: assets_assetbundleresources_materials

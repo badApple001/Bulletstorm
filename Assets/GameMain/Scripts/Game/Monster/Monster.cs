@@ -4,53 +4,53 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-
 [RequireComponent( typeof( Creature ) )]
 public class Monster : MonoBehaviour, IPlayerPositionChangeEvent
 {
 
     public enum MonsterState
     {
-        Idle, //¿ÕÏÐ×´Ì¬
-        Hit,//±»¹¥»÷
-        FollowTarget, //×·×ÙµÐÈË×´Ì¬
-        Attack, //¹¥»÷×´Ì¬
-        Patrol, //Ñ²Âß×´Ì¬
-        GoHome,//»Øµ½ÁìµØÖÐÐÄµã
-        Death,//ËÀÍö×´Ì¬
+        Idle, //ï¿½ï¿½ï¿½ï¿½×´Ì¬
+        Hit,//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+        FollowTarget, //×·ï¿½Ùµï¿½ï¿½ï¿½×´Ì¬
+        Attack, //ï¿½ï¿½ï¿½ï¿½×´Ì¬
+        Patrol, //Ñ²ï¿½ï¿½×´Ì¬
+        GoHome,//ï¿½Øµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Äµï¿½
+        Death,//ï¿½ï¿½ï¿½ï¿½×´Ì¬
     }
+
     public enum MonsterType
     {
-        //Õ½Ê¿ / ½üÕ½
+        //Õ½Ê¿ / ï¿½ï¿½Õ½
         Warrior,
 
-        //ÉäÊÖ / ·¨Ê¦
+        //ï¿½ï¿½ï¿½ï¿½ / ï¿½ï¿½Ê¦
         Shooter,
     }
 
 
     [HideInInspector] public Vector3 m_territorialCenter = Vector3.zero;
-    /*[Header( "ÁìµØ·¶Î§" )] */
+    /*[Header( "ï¿½ï¿½Ø·ï¿½Î§" )] */
     public float m_territorialRange = 4f;
-    /*[Header( "ÊÓÒ°·¶Î§" )] */
+    /*[Header( "ï¿½ï¿½Ò°ï¿½ï¿½Î§" )] */
     public float m_filedOfView = 3.93f;
-    /*[Header( "¹¥»÷ÉËº¦" )] */
+    /*[Header( "ï¿½ï¿½ï¿½ï¿½ï¿½Ëºï¿½" )] */
     public float m_attackHarm = 2f;
     public float m_attackAnimationTime = 0.6f;
-    /*[Header( "ÒÆ¶¯ËÙ¶È" )] */
+    /*[Header( "ï¿½Æ¶ï¿½ï¿½Ù¶ï¿½" )] */
     public float m_moveSpeed = 2f;
-    /*[Header( "¹¥»÷¾àÀë" )] */
+    /*[Header( "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" )] */
     public float m_atkDistance = 1f;
-    /*[Header( "ËÀÍöÑÕÉ«" )] */
+    /*[Header( "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É«" )] */
     public Color m_deathColor = Color.white;
-    /*[Header( "¹ÖÎïÀàÐÍ" )] */
+    /*[Header( "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" )] */
     public MonsterType m_monsterType = MonsterType.Warrior;
-    /*[Header( "×Óµ¯Ô¤Éè" )] */
+    /*[Header( "ï¿½Óµï¿½Ô¤ï¿½ï¿½" )] */
     public GameObject m_bulletPrefab;
-    public Transform m_muzzle = null;//ÉäÊÖµÄÇ¹¿ÚÎ»ÖÃ
-    public bool m_isTrace = false;//ÊÇ·ñÊÇ¸ú×Ù×Óµ¯
-    /*[Header( "Íæ¼Ò×´Ì¬" )]*/
-    /*[ReadOnly][Tooltip( "µ÷ÊÔ" )]*/
+    public Transform m_muzzle = null;//ï¿½ï¿½ï¿½Öµï¿½Ç¹ï¿½ï¿½Î»ï¿½ï¿½
+    public bool m_isTrace = false;//ï¿½Ç·ï¿½ï¿½Ç¸ï¿½ï¿½ï¿½ï¿½Óµï¿½
+    /*[Header( "ï¿½ï¿½ï¿½×´Ì¬" )]*/
+    /*[ReadOnly][Tooltip( "ï¿½ï¿½ï¿½ï¿½" )]*/
     public MonsterState m_currentState = MonsterState.Idle;
 
 
@@ -82,9 +82,10 @@ public class Monster : MonoBehaviour, IPlayerPositionChangeEvent
 
         float scale = transform.localScale.x;
 
-        //»æÖÆÊÓÒ°·¶Î§
+        //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò°ï¿½ï¿½Î§
         GizmosUtil.DrawCircle( transform.localToWorldMatrix, m_filedOfView / scale, Vector2.zero, Color.red );
-        //»æÖÆÁìµØ·¶Î§
+        
+        //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø·ï¿½Î§
         if ( !Application.isPlaying )
         {
             GizmosUtil.DrawCircle( transform.localToWorldMatrix, m_territorialRange / scale, Vector2.zero, Color.blue );
@@ -124,22 +125,22 @@ public class Monster : MonoBehaviour, IPlayerPositionChangeEvent
         flipX = transform.lossyScale.x;
         flipY = transform.lossyScale.y;
 
-        //»º´æÍæ¼ÒµÄTrans½Úµã ¶ÀÒ»·Ý
+        //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òµï¿½Transï¿½Úµï¿½ ï¿½ï¿½Ò»ï¿½ï¿½
         if ( null == g_playerControl )
         {
             g_playerControl = GameObject.FindObjectOfType<PlayerControl>( );
         }
         playerTrans = g_playerControl.transform;
 
-        //¼àÌýÉúÎïÊÂ¼þ
+        //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¼ï¿½
         creature.OnHpChange = OnHpChange;
         creature.OnMpChange = OnMpChange;
 
-        //×¢²á¶¯»­ÊÂ¼þ
+        //×¢ï¿½á¶¯ï¿½ï¿½ï¿½Â¼ï¿½
         ReigisteAnimationEvent( );
     }
 
-    //¶¯»­ÊµÔÚÌ«¶àÁË,ËùÒÔÔÚÏÂ¾Í¾ö¶¨ÓÃ´úÂëÀ´°ó¶¨ºÃÁË, ÕâÑùÒ»ÀÍÓÀÒÝ
+    //ï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½Ì«ï¿½ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¾Í¾ï¿½ï¿½ï¿½ï¿½Ã´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ó¶¨ºï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     private void ReigisteAnimationEvent( )
     {
         AnimatorUtils.AddAnimationEvent( animator, "Attack", "Fire", m_attackAnimationTime, "OnAttack" );
@@ -181,11 +182,11 @@ public class Monster : MonoBehaviour, IPlayerPositionChangeEvent
                 break;
             case MonsterState.FollowTarget:
 
-                //µÐÈËÑ°Â·Î»ÖÃÔÚÍæ¼ÒÍ¬ÌõË®Æ½ÏßµÄ²à±ß
-                //¾Ù¸öÀý×Ó, Íæ¼ÒµÄÎ»ÖÃ x:0,y:0
-                //Èç¹ûµÐÈËÊÇ´Ó×ó±ß×ß¹ýÀ´,ÄÇËüµÄÎ»ÖÃ¾ÍÊÇ x:-0.4,y:0.4
-                //·´Ö® x:0.4,y:0.4
-                //yÒ²¼õ0.4ÊÇÉ¶ÒâË¼ÄØ? ÒòÎªÍæ¼ÒµÄ½Åµ×ÊÇÐèÒª¼õÉÙ0.4, ÆäËü¹ÖÎïÒ»Ñù±£³ÖÒÔ½Åµ×ÎªÔ­µãËã×ø±ê,±£³ÖÔÚÍ³Ò»Ë®Æ½ÏßÉÏ
+                //ï¿½ï¿½ï¿½ï¿½Ñ°Â·Î»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¬ï¿½ï¿½Ë®Æ½ï¿½ßµÄ²ï¿½ï¿½
+                //ï¿½Ù¸ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½Òµï¿½Î»ï¿½ï¿½ x:0,y:0
+                //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç´ï¿½ï¿½ï¿½ï¿½ï¿½ß¹ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½Ã¾ï¿½ï¿½ï¿½ x:-0.4,y:0.4
+                //ï¿½ï¿½Ö® x:0.4,y:0.4
+                //yÒ²ï¿½ï¿½0.4ï¿½ï¿½É¶ï¿½ï¿½Ë¼ï¿½ï¿½? ï¿½ï¿½Îªï¿½ï¿½ÒµÄ½Åµï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½0.4, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô½Åµï¿½ÎªÔ­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í³Ò»Ë®Æ½ï¿½ï¿½ï¿½ï¿½
                 ai.destination = playerTrans.position;
                 if ( ai.reachedDestination || dir.magnitude <= m_atkDistance )
                 {
@@ -285,7 +286,7 @@ public class Monster : MonoBehaviour, IPlayerPositionChangeEvent
             sr.color = m_deathColor;
         }
 
-        //ÕâÀïÊÇ´Ó×ÖµäÀïÈ¡¹þ, ²»ÓÃµ£ÐÄÐÔÄÜ
+        //ï¿½ï¿½ï¿½ï¿½ï¿½Ç´ï¿½ï¿½Öµï¿½ï¿½ï¿½È¡ï¿½ï¿½, ï¿½ï¿½ï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         DiskAgent.Load<GameMain.GameData>( ).exp += creature.GetExp( );
         MsgFire.Event( GameEventName.ON_FLY_EXP, transform.position, DiskAgent.Load<GameMain.GameData>( ).exp );
     }
@@ -312,17 +313,17 @@ public class Monster : MonoBehaviour, IPlayerPositionChangeEvent
 
         var dir = playerTrans.position - transform.position;
 
-        //½üÕ½´¦Àí·½Ê½
+        //ï¿½ï¿½Õ½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½
         if ( m_monsterType == MonsterType.Warrior )
         {
             if ( dir.magnitude <= m_atkDistance )
             {
-                //²âÊÔdemoÁÙÊ±¼Ó, ºóÐøÔÙ¼Óµ½±íÀï
+                //ï¿½ï¿½ï¿½ï¿½demoï¿½ï¿½Ê±ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½Ù¼Óµï¿½ï¿½ï¿½ï¿½ï¿½
                 int critRate = UnityEngine.Random.value < 0.1f ? 2 : 1;
                 float realHarm = m_attackHarm * critRate * g_playerControl.creature.defense;
                 g_playerControl.creature.Hp -= realHarm;
 
-                //Æ®×Ö
+                //Æ®ï¿½ï¿½
                 MsgFire.Event(
                        GameEventName.ON_FLY_HARMTEXT,
                        transform.position, critRate > 1 ? HarmText.HarmType.crit : HarmText.HarmType.normal,
@@ -332,7 +333,7 @@ public class Monster : MonoBehaviour, IPlayerPositionChangeEvent
         else
         {
 
-            //Ô¶³ÌµÄ·¢Éä×Óµ¯
+            //Ô¶ï¿½ÌµÄ·ï¿½ï¿½ï¿½ï¿½Óµï¿½
             var obj = ObjectPool.Instance.GetObject( m_bulletPrefab );
             obj.transform.position = m_muzzle.position;
             obj.GetComponent<MonsterBullet>( ).Init( dir.normalized );

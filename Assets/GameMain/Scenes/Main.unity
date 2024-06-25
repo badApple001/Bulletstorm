@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -581,6 +580,10 @@ PrefabInstance:
     - target: {fileID: 7065416813946249018, guid: dc489bcb07f433743a49cd1f1717288e, type: 3}
       propertyPath: m_Name
       value: Box Monster (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7065416813946249018, guid: dc489bcb07f433743a49cd1f1717288e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc489bcb07f433743a49cd1f1717288e, type: 3}
@@ -1671,6 +1674,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
   m_SortingOrder: 1
@@ -4929,6 +4933,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Birdy (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 2367073078533428889, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2367073078533429094, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
       propertyPath: radius
       value: 0.05
@@ -5540,6 +5548,10 @@ PrefabInstance:
     - target: {fileID: 2367073078533428889, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
       propertyPath: m_Name
       value: Birdy (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2367073078533428889, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2367073078533429094, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
       propertyPath: radius
@@ -9283,6 +9295,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -9447,6 +9460,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Birdy (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 2367073078533428889, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2367073078533429094, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
       propertyPath: radius
       value: 0.05
@@ -9592,6 +9609,10 @@ PrefabInstance:
     - target: {fileID: 2367073078533428889, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
       propertyPath: m_Name
       value: Birdy (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2367073078533428889, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2367073078533429094, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
       propertyPath: radius
@@ -10691,6 +10712,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box Monster (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7065416813946249018, guid: dc489bcb07f433743a49cd1f1717288e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc489bcb07f433743a49cd1f1717288e, type: 3}
 --- !u!4 &770110836 stripped
@@ -11299,6 +11324,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Birdy (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 2367073078533428889, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2367073078533429094, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
       propertyPath: radius
       value: 0.05
@@ -11541,6 +11570,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box Monster (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7065416813946249018, guid: dc489bcb07f433743a49cd1f1717288e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc489bcb07f433743a49cd1f1717288e, type: 3}
 --- !u!4 &861951792 stripped
@@ -11602,6 +11635,10 @@ PrefabInstance:
     - target: {fileID: 2367073078533428889, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
       propertyPath: m_Name
       value: Birdy (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2367073078533428889, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2367073078533429094, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
       propertyPath: radius
@@ -15459,6 +15496,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Birdy (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 2367073078533428889, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2367073078533428891, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
       propertyPath: m_attackHarm
       value: 60
@@ -16114,6 +16155,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Birdy (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 2367073078533428889, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2367073078533429094, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
       propertyPath: radius
       value: 0.05
@@ -16311,6 +16356,10 @@ PrefabInstance:
     - target: {fileID: 2367073078533428889, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
       propertyPath: m_Name
       value: Birdy (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2367073078533428889, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2367073078533429094, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
       propertyPath: radius
@@ -16609,6 +16658,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box Monster (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7065416813946249018, guid: dc489bcb07f433743a49cd1f1717288e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc489bcb07f433743a49cd1f1717288e, type: 3}
 --- !u!4 &1086062044 stripped
@@ -16626,6 +16679,10 @@ PrefabInstance:
     - target: {fileID: 8474212476060798086, guid: 63bb0f61640a8094c90638dc6d57e370, type: 3}
       propertyPath: m_Name
       value: Goblin (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8474212476060798086, guid: 63bb0f61640a8094c90638dc6d57e370, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8474212476060798091, guid: 63bb0f61640a8094c90638dc6d57e370, type: 3}
       propertyPath: m_RootOrder
@@ -19506,6 +19563,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box Monster (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7065416813946249018, guid: dc489bcb07f433743a49cd1f1717288e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc489bcb07f433743a49cd1f1717288e, type: 3}
 --- !u!4 &1274337440 stripped
@@ -21106,6 +21167,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -21533,6 +21595,10 @@ PrefabInstance:
     - target: {fileID: 2367073078533428889, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
       propertyPath: m_Name
       value: Birdy (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2367073078533428889, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2367073078533429094, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
       propertyPath: radius
@@ -34989,6 +35055,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Birdy (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 2367073078533428889, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2367073078533429094, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
       propertyPath: radius
       value: 0.05
@@ -35138,6 +35208,10 @@ PrefabInstance:
     - target: {fileID: 2367073078533428889, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
       propertyPath: m_Name
       value: Birdy (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2367073078533428889, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2367073078533429094, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
       propertyPath: radius
@@ -37331,6 +37405,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Birdy (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 2367073078533428889, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2367073078533429094, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
       propertyPath: radius
       value: 0.05
@@ -37730,6 +37808,10 @@ PrefabInstance:
     - target: {fileID: 2367073078533428889, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
       propertyPath: m_Name
       value: Birdy (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2367073078533428889, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2367073078533429094, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
       propertyPath: radius
@@ -38422,6 +38504,10 @@ PrefabInstance:
     - target: {fileID: 2367073078533428889, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
       propertyPath: m_Name
       value: Birdy (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2367073078533428889, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2367073078533429094, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
       propertyPath: radius
@@ -43267,6 +43353,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Goblin
       objectReference: {fileID: 0}
+    - target: {fileID: 8474212476060798086, guid: 63bb0f61640a8094c90638dc6d57e370, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8474212476060798091, guid: 63bb0f61640a8094c90638dc6d57e370, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -43357,6 +43447,10 @@ PrefabInstance:
     - target: {fileID: 7692477254573462339, guid: e5098fed69aea0e41a2737188c8a8661, type: 3}
       propertyPath: m_Name
       value: Slime
+      objectReference: {fileID: 0}
+    - target: {fileID: 7692477254573462339, guid: e5098fed69aea0e41a2737188c8a8661, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7692477254573462350, guid: e5098fed69aea0e41a2737188c8a8661, type: 3}
       propertyPath: m_RootOrder
@@ -43462,6 +43556,10 @@ PrefabInstance:
     - target: {fileID: 7843986630971516780, guid: a0d982d9e23d45041a36d79126b4527d, type: 3}
       propertyPath: m_Name
       value: Slime
+      objectReference: {fileID: 0}
+    - target: {fileID: 7843986630971516780, guid: a0d982d9e23d45041a36d79126b4527d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0d982d9e23d45041a36d79126b4527d, type: 3}
@@ -43664,6 +43762,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Birdy
       objectReference: {fileID: 0}
+    - target: {fileID: 2367073078533428889, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2367073078533428891, guid: 15ef2a8f64b5aba44903e1fbbce90158, type: 3}
       propertyPath: m_attackHarm
       value: 50
@@ -43769,6 +43871,10 @@ PrefabInstance:
     - target: {fileID: 7065416813946249018, guid: dc489bcb07f433743a49cd1f1717288e, type: 3}
       propertyPath: m_Name
       value: Box Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 7065416813946249018, guid: dc489bcb07f433743a49cd1f1717288e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc489bcb07f433743a49cd1f1717288e, type: 3}
